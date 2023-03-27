@@ -1,5 +1,5 @@
 import React from 'react';
-// import About from '../pages/about';
+
 
 
 function Header() {
@@ -22,8 +22,8 @@ return(
         
 
 
-          <li><a href="index.html" className="active">Home</a></li>
-          <li><a href>About</a></li>
+          <li><a href className="active">Home</a></li>
+          <li><a href="/about">About</a></li>
           <li className="dropdown"><a href><span>Project Gallery</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
         
@@ -43,7 +43,7 @@ return(
             </ul>
           </li>
           {/* <li><a href="services.html">Services</a></li> */}
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href>Contact</a></li>
         </ul>
       </nav>
       {/* <!-- .navbar --> */}
