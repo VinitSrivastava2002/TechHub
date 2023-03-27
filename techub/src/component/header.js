@@ -22,7 +22,7 @@ return(
         
 
 
-          <li><a href className="active">Home</a></li>
+          <li><a href="/" className="active">Home</a></li>
           <li><a href="/about">About</a></li>
           <li className="dropdown"><a href><span>Project Gallery</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -43,7 +43,7 @@ return(
             </ul>
           </li>
           {/* <li><a href="services.html">Services</a></li> */}
-          <li><a href>Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
       {/* <!-- .navbar --> */}
