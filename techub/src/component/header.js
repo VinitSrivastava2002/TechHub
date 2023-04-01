@@ -11,7 +11,7 @@ return(
 
       <a href="index.html" className="logo d-flex align-items-center  me-auto me-lg-0">
         {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
-        <img src="assets\img\portfolio\tech-logo21.jpg" alt="" width="300px" height='500px' />
+        <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/nbt.png?alt=media&token=a8fbd900-5e93-420d-a052-62654764ec30" alt="" width="300px" height='500px' />
         {/* <i className="bi bi-camera"></i> */}
         {/* <h1>TechHub</h1> */}
       </a>
