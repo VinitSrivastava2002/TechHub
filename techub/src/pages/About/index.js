@@ -1,8 +1,8 @@
 
 // import "bootstrap/dist/css/bootstrap.css";
-import "./style.module.css";
 import React, { useEffect } from 'react'
 
+import "./style.module.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,21 +16,27 @@ function About() {
   return (
     <div>
 
-      <main id="main">
+      
 
-        {/* <!-- ======= Breadcrumbs ======= --> */}
-        <div class="breadcrumbs d-flex align-items-center" >
-          <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+      <section id="hero" className="d-flex align-items-center" >
 
-            <h2>About</h2>
-            
+<div className="container">
+  <div className="row">
+    <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
+      <h1 >ABOUT TECHHUB </h1>
+      
+    </div>
+    <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
+      <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Faboutlogo.png?alt=media&token=05b0c2e5-8488-408a-b939-21bef743d3fd" className="img-fluid animated" alt="" />
+    </div>
+  </div>
+</div>
 
-          </div>
-        </div>
-        {/* <!-- End Breadcrumbs --> */}
-
+</section>
+{/* <!-- End Hero --> */}
+<main id="main">
         {/* <!-- ======= About Section ======= --> */}
-        <section id="about" class="about">
+        <section id="about " class="about">
           <div class="container" data-aos="fade-up">
 
             <div class="row position-relative">
@@ -38,22 +44,16 @@ function About() {
               <div class="col-lg-7 about-img"></div>
 
               <div class="col-lg-7">
-                <h2>Consequatur eius et magnam</h2>
+                
                 <div class="our-story">
-                  <h4>Est 1988</h4>
-                  <h3>Our Story</h3>
-                  <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+                  <h3>WHY TECHHUB ??</h3>
+                  <p>Engineering students often struggle to apply theoretical knowledge for practical projects. TechHub is a platform that facilitates collaboration between senior and junior students in an engineering college by allowing seniors to store their projects and share them with juniors.</p>
+                  <ul id="point">
+                    <li><i class="bi bi-check-circle"></i> <span>Easy Access</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Clear View</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Complete Project Detail</span></li>
                   </ul>
-                  <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
-
-                  <div class="watch-video d-flex align-items-center position-relative">
-                    <i class="bi bi-play-circle"></i>
-                    <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
-                  </div>
+                  <p>TechHub is based on the MERN stack, which includes MongoDB, Express, React, and Node.js, and was implemented using the Agile methodology. A survey of senior students who uploaded their projects to TechHub indicated that the it will you by juniors.</p>
                 </div>
               </div>
 
@@ -64,17 +64,18 @@ function About() {
         {/* <!-- End About Section --> */}
 
         {/* <!-- ======= Stats Counter Section ======= --> */}
-        <section id="stats-counter" class="stats-counter section-bg">
+        <section id="stats-counter" class="stats-counter section-bg" data-aos="fade-up" data-delay="100">
           <div class="container">
 
             <div class="row gy-4">
 
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+                  <i class="bi bi-globe color-blue flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Happy Clients</p>
+                    <p>Web</p>
+                    <h1>5</h1>
                   </div>
                 </div>
               </div>
@@ -82,10 +83,11 @@ function About() {
 
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+                  <i class="bi bi-android2 color-orange flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Projects</p>
+                    <p>Android </p>
+                    <h1>5</h1>
                   </div>
                 </div>
               </div>
@@ -96,7 +98,8 @@ function About() {
                   <i class="bi bi-headset color-green flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Hours Of Support</p>
+                    <p>IOT</p>
+                    <h1>5</h1>
                   </div>
                 </div>
               </div>
@@ -104,10 +107,11 @@ function About() {
 
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-people color-pink flex-shrink-0"></i>
+                  <i class="bi bi-dpad color-pink flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Hard Workers</p>
+                    <p>Game</p>
+                    <h1>5</h1>
                   </div>
                 </div>
               </div>
@@ -127,13 +131,13 @@ function About() {
               <div class="col-lg-6 img-bg"  data-aos="zoom-in" data-aos-delay="100"></div>
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                <h3>Technologies we used</h3>
                 <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                   <i class="bi bi-easel flex-shrink-0"></i>
                   <div>
-                    <h4><a href class="stretched-link">Lorem Ipsum</a></h4>
+                    <h4><a href class="stretched-link">Web Development</a></h4>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                   </div>
                 </div>
@@ -142,7 +146,7 @@ function About() {
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-patch-check flex-shrink-0"></i>
                   <div>
-                    <h4><a href class="stretched-link">Nemo Enim</a></h4>
+                    <h4><a href class="stretched-link">Android Development</a></h4>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                   </div>
                 </div>
@@ -151,7 +155,7 @@ function About() {
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-brightness-high flex-shrink-0"></i>
                   <div>
-                    <h4><a href class="stretched-link">Dine Pad</a></h4>
+                    <h4><a href class="stretched-link">Machine Learning</a></h4>
                     <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
                   </div>
                 </div>
@@ -160,7 +164,7 @@ function About() {
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-brightness-high flex-shrink-0"></i>
                   <div>
-                    <h4><a href class="stretched-link">Tride clov</a></h4>
+                    <h4><a href class="stretched-link">Game Development</a></h4>
                     <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
                   </div>
                 </div>
@@ -179,9 +183,8 @@ function About() {
         <section id="team" class="team">
           <div class="container" data-aos="fade-up">
 
-            <div class="section-header">
-              <h2>Our Team</h2>
-              <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+            <div class="section-title">
+             <h2>OUR TEAM</h2>
             </div>
 
             <div class="row gy-5">
@@ -190,34 +193,32 @@ function About() {
                 <div class="member-img">
                   <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
                   <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/vanya_rastogi"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/VanyaRastogi"><i class="bi bi-github"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/vanya-rastogi/"><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div class="member-info text-center">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                  <h4>VANYA RASTOGI</h4>
+                  <span>Team Leader</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
-                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                  <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
                   <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
+                  <a href="https://twitter.com/ShivankurSingh2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/Shivankur25"><i class="bi bi-github"></i></a>
+
+                    <a href="https://www.linkedin.com/in/shivankur-singh-38a852190/"><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div class="member-info text-center">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                  <h4>SHIVANKUR SINGH</h4>
+                  <span>Backend Developer</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
@@ -226,16 +227,15 @@ function About() {
                 <div class="member-img">
                   <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
                   <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
+                  <a href><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/VinitSrivastava2002"><i class="bi bi-github"></i></a>
+
+                    <a href="linkedin.com/in/vinit-srivastava-2ba5191a6/"><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div class="member-info text-center">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                  <h4>VINIT SRIVASTAVA</h4>
+                  <span>CI/CD Developer</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
@@ -244,52 +244,52 @@ function About() {
                 <div class="member-img">
                   <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
                   <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
+                  <a href><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/rana830"><i class="bi bi-github"></i></a>
+
+                    <a href="https://www.linkedin.com/in/rana-pratap-singh-a05883192"><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div class="member-info text-center">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                  <h4>RANA PRATAP SINGH</h4>
+                  <span>UI Designer</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
 
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-                <div class="member-img">
-                  <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="" />
-                  <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info text-center">
-                  <h4>Brian Doe</h4>
-                  <span>Marketing</span>
-                  <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
-                </div>
-              </div>
-              {/* <!-- End Team Member --> */}
+              <div class="section-title">
+             <h2>MENTOR</h2>
+            </div>
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
                 <div class="member-img">
                   <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+                    
                     <a href><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div class="member-info text-center">
-                  <h4>Josepha Palas</h4>
-                  <span>Operation</span>
-                  <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                  <h4>MRS SUBHA JAIN</h4>
+                  <span>HOD</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                <div class="member-img">
+                  <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href><i class="bi bi-twitter"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>MRS SHAIL DUBEY</h4>
+                  <span>Associate Professor</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}

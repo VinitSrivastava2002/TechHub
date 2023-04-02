@@ -12,7 +12,7 @@ return(
 
       <a href="index.html" className="logo d-flex align-items-center  me-auto me-lg-0">
         {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
-        <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/nbt.png?alt=media&token=a8fbd900-5e93-420d-a052-62654764ec30" alt="" width="300px" height='500px' />
+         <h2 style={{color:'#fff'}}>TECHHUB</h2>
         {/* <i className="bi bi-camera"></i> */}
         {/* <h1>TechHub</h1> */}
       </a>
@@ -25,7 +25,7 @@ return(
 
           <li><a href="/" className="active">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li className="dropdown"><a href><span>Project Gallery</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li className="dropdown"><a href><span>Project Gallery</span> <span className="bi bi-chevron-down dropdown-indicator"></span></a>
             <ul>
         
               <li><a href="/web">Web Development</a></li>
@@ -33,19 +33,10 @@ return(
               <li><a href="/machine">Machine Learning</a></li>
               <li><a href="/iot">IOT</a></li>
               <li><a href="/games">Games</a></li>
-              {/* <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li> */}
-              {/* <li className="dropdown"><a href><span>Sub Menu</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href>Sub Menu 1</a></li>
-                  <li><a href>Sub Menu 2</a></li>
-                  <li><a href>Sub Menu 3</a></li>
-                </ul>
-              </li> */}
+              
             </ul>
           </li>
-          {/* <li><a href="services.html">Services</a></li> */}
-          <li><a href="/contact">Contact</a></li>
+          
         </ul>
       </nav>
       {/* <!-- .navbar --> */}

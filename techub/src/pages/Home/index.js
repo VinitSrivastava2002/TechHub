@@ -71,7 +71,7 @@ export default function Home() {
               <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="fade-up" data-aos-delay="400">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-layer"></i></div>
-                  <h4><a href>Games</a></h4>
+                  <h4><a href>Game Development</a></h4>
                   <p>Life is a difficult game. You can win it only by retaining your birthright to be a person.</p>
                   <a href="http://">Learn more </a>
 
@@ -134,7 +134,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-globe2"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/web" className="stretched-link">
                   <h3>Web Development</h3>
                 </a>
                 <p>Web based projects designed and programmed for user to experience different services on their browsers.</p>
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-android2"></i>
                 </div>
-                <a href
+                <a href="/android"
                  className="stretched-link">
                   <h3>Android Development</h3>
                 </a>
@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-robot"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/machine" className="stretched-link">
                   <h3>Machine Learning</h3>
                 </a>
                 <p>ML based projects designed and programmed for user to experience different services on their browsers</p>
@@ -189,8 +189,8 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-controller"></i>
                 </div>
-                <a href className="stretched-link">
-                  <h3>Game</h3>
+                <a href="/games" className="stretched-link">
+                  <h3>Game Development</h3>
                 </a>
                 <p> Game based projects designed and programmed for user to experience different services on their browsers.</p>
               </div>
@@ -206,7 +206,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-clouds"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/iot" className="stretched-link">
                   <h3>Internet of Things</h3>
                 </a>
                 <p>IOT based projects designed and programmed for user to experience different services on their browsers.</p>

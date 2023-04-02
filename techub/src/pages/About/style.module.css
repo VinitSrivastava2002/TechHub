@@ -112,12 +112,16 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 140px 0 60px 0;
-  min-height: 30vh;
+  /* padding: 140px 0 60px 0; */
+  /* min-height: 30vh; */
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+    height: 60vh;
+    background: #37517e;
+
 }
 
 .breadcrumbs:before {
@@ -975,120 +979,7 @@ section {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
-  padding-left: 50px;
-}
 
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
-  margin: 0 15px 30px 0;
-  min-height: 200px;
-  box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1);
-  position: relative;
-  background: #fff;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 10px;
-  border: 6px solid #fff;
-  position: absolute;
-  left: -45px;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #000;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-.testimonials .testimonial-item .stars {
-  margin: 10px 0;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #ffd565;
-  font-size: 26px;
-  line-height: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 15px auto 15px auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #d5d7da;
-  opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-@media (max-width: 767px) {
-  .testimonials .testimonial-wrap {
-    padding-left: 0;
-  }
-
-  .testimonials .testimonials-carousel,
-  .testimonials .testimonials-slider {
-    overflow: hidden;
-  }
-
-  .testimonials .testimonial-item {
-    padding: 30px;
-    margin: 15px;
-  }
-
-  .testimonials .testimonial-item .testimonial-img {
-    position: static;
-    left: auto;
-  }
-}
 
 /*--------------------------------------------------------------
 # Alt Services Section
@@ -1272,14 +1163,14 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: var(--color-primary);
+  color: black;
 }
 
 .stats-counter .stats-item span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: var(--color-secondary);
+  color: #364d59;
 }
 
 .stats-counter .stats-item p {
@@ -1289,85 +1180,6 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Our Team Section
---------------------------------------------------------------*/
-.team .member {
-  position: relative;
-}
-
-.team .member .member-img {
-  margin: 0 80px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-}
-
-@media (max-width: 1024px) {
-  .team .member .member-img {
-    margin: 0 60px;
-  }
-}
-
-.team .member .member-img img {
-  position: relative;
-  z-index: 1;
-}
-
-.team .member .member-img .social {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-  padding-bottom: 20px;
-  transition: 0.3s;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.team .member .member-img .social a {
-  transition: 0.3s;
-  color: #fff;
-  font-size: 20px;
-  margin: 0 8px;
-}
-
-.team .member .member-img .social a:hover {
-  color: var(--color-primary);
-}
-
-.team .member .member-info {
-  margin-top: 30px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 6px;
-  font-size: 18px;
-  color: var(--color-secondary);
-}
-
-.team .member .member-info span {
-  font-style: italic;
-  display: block;
-  font-size: 15px;
-  color: #838893;
-  margin-bottom: 10px;
-}
-
-.team .member .member-info p {
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.team .member:hover .member-img .social {
-  padding-bottom: 0;
-  visibility: visible;
-  opacity: 1;
-}
 
 /*--------------------------------------------------------------
 # Servie Cards Section
