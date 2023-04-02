@@ -30,8 +30,9 @@ return(
         
               <li><a href="/web">Web Development</a></li>
               <li><a href="/android">Android Development</a></li>
-              <li><a href="/gallery/machine">Machine Learning</a></li>
-              <li><a href="/gallery/games">Games</a></li>
+              <li><a href="/machine">Machine Learning</a></li>
+              <li><a href="/iot">IOT</a></li>
+              <li><a href="/games">Games</a></li>
               {/* <li><a href="gallery.html">Sports</a></li>
               <li><a href="gallery.html">Travel</a></li> */}
               {/* <li className="dropdown"><a href><span>Sub Menu</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>

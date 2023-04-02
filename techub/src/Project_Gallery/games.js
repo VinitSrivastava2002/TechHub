@@ -4,7 +4,7 @@ import "./Project.Module.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Web() {
+function Games() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -16,11 +16,11 @@ function Web() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h1>Web Development </h1>
+            <h1>Games Development </h1>
             
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb-unscreen.gif?alt=media&token=70d1299e-b531-44b1-85de-845d0a5332c9" className="img-fluid animated" alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgamebg.png?alt=media&token=4e564480-3d58-459b-b4fa-6b40f545193b" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
@@ -38,13 +38,13 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb1.png?alt=media&token=d719f884-76ee-4af3-b542-36fe0236de6b"
+                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgaming1.png?alt=media&token=155f3027-6254-4053-9739-7a56285cb4cd"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web1</h4>
-                  <p>Welcome to web 1</p>
+                  <h4>game 1</h4>
+                  <p>Welcome to Game 1</p>
                   <a
                     href="assets/img/projects/remodeling-1.jpg"
                     title="Remodeling 1"
@@ -69,13 +69,13 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb2.png?alt=media&token=041a95be-4802-4f4c-a373-535e710c2909"
+                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgaming2.png?alt=media&token=f99bb9d6-0b49-4170-93ca-c17b7edf4370"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 2</h4>
-                  <p>welcome to Web 2</p>
+                  <h4>Game 2</h4>
+                  <p>welcome to Game 2</p>
                   <a
                     href="assets/img/projects/construction-1.jpg"
                     title="Construction 1"
@@ -100,13 +100,13 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb3.png?alt=media&token=db228aaa-d887-41e6-a9a8-452f607afc92"
+                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgaming3.png?alt=media&token=184de264-3a09-49fc-aea4-42938da7c32e"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>welcome to Web 3</p>
+                  <h4>Game 3</h4>
+                  <p>welcome to Game 3</p>
                   <a
                     href="assets/img/projects/repairs-1.jpg"
                     title="Repairs 1"
@@ -131,13 +131,13 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-design">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb4.png?alt=media&token=5fe3a98e-355c-4a10-a292-47cac7c6df0e"
+                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgaming4.png?alt=media&token=695f7b73-14af-4f48-bc21-1aedb8258065"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 4</h4>
-                  <p>Welcome to Web 4</p>
+                  <h4>Game 4</h4>
+                  <p>Welcome to Game 4</p>
                   <a
                     href="assets/img/projects/design-1.jpg"
                     title="Repairs 1"
@@ -162,13 +162,13 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb5.png?alt=media&token=0761ebf9-37ab-4cc7-a73a-d29cbf573b66"
+                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgaming5.png?alt=media&token=35799947-31bd-4093-bf38-fb4216d14f1a"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 5</h4>
-                  <p>Welcome to web 5</p>
+                  <h4>Game 5</h4>
+                  <p>Welcome to Game 5</p>
                   <a
                     href="assets/img/projects/remodeling-2.jpg"
                     title="Remodeling 2"
@@ -196,4 +196,4 @@ function Web() {
   )
 }
 
-export default Web
+export default Games

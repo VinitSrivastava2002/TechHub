@@ -4,7 +4,7 @@ import "./Project.Module.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Web() {
+function Machine() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -16,11 +16,11 @@ function Web() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h1>Web Development </h1>
+            <h1>Machine Learning </h1>
             
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb-unscreen.gif?alt=media&token=70d1299e-b531-44b1-85de-845d0a5332c9" className="img-fluid animated" alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fmachine%2Fmachinelogo.png?alt=media&token=fee52044-d44c-434a-b587-3545927bf39d" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb1.png?alt=media&token=d719f884-76ee-4af3-b542-36fe0236de6b"
+                  src="assets/img/projects/remodeling-1.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -69,7 +69,7 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb2.png?alt=media&token=041a95be-4802-4f4c-a373-535e710c2909"
+                  src="assets/img/projects/construction-1.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -100,7 +100,7 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb3.png?alt=media&token=db228aaa-d887-41e6-a9a8-452f607afc92"
+                  src="assets/img/projects/repairs-1.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -131,7 +131,7 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-design">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb4.png?alt=media&token=5fe3a98e-355c-4a10-a292-47cac7c6df0e"
+                  src="assets/img/projects/design-1.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -162,7 +162,7 @@ function Web() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb5.png?alt=media&token=0761ebf9-37ab-4cc7-a73a-d29cbf573b66"
+                  src="assets/img/projects/remodeling-2.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -196,4 +196,4 @@ function Web() {
   )
 }
 
-export default Web
+export default Machine
