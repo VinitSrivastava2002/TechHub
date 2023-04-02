@@ -1,16 +1,18 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 function Footer(){
     return(
-        <div>
+      <div>
             <footer id="footer" className="footer">
-    <div className="container">
-      <div className="copyright">
+            <div className="container">
+        <div className="copyright">
         &copy; Copyright <strong><span>TechHub</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer>
         </div>
+      
     )
 }
 
