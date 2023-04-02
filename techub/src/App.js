@@ -26,7 +26,7 @@ function App() {
           <Route path="/iot" exact component={IOT}/>
           <Route path="/games" exact component={Games}/>
           <Route path="/projectdetail" exact component={Project_details}/>
-          <Route path="/projectdetail" exact component={Project_details}/>
+          
 
 
         </Switch>

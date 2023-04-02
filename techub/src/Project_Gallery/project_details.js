@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+// import "./Project.Module.css"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -54,9 +55,9 @@ function Project_details() {
           <div className="slides-1 portfolio-details-slider swiper">
             <div className="swiper-wrapper align-items-center">
               <div className="swiper-slide">
-                <img src="assets/img/projects/remodeling-1.jpg" alt="" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb1.png?alt=media&token=d719f884-76ee-4af3-b542-36fe0236de6b" alt="" />
               </div>
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <img src="assets/img/projects/construction-1.jpg" alt="" />
               </div>
               <div className="swiper-slide">
@@ -64,7 +65,7 @@ function Project_details() {
               </div>
               <div className="swiper-slide">
                 <img src="assets/img/projects/repairs-1.jpg" alt="" />
-              </div>
+              </div> */}
             </div>
             <div className="swiper-pagination" />
           </div>
@@ -74,20 +75,19 @@ function Project_details() {
         <div className="row justify-content-between gy-4 mt-4">
           <div className="col-lg-8">
             <div className="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>this is a web project 1</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                itaque inventore commodi labore quia quia. Exercitationem
-                repudiandae officiis neque suscipit non officia eaque itaque
-                enim. Voluptatem officia accusantium nesciunt est omnis tempora
-                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
+              Web Project: Web Project is defined as the project which is specialized to make different 
+              types of websites that are implemented on the internet. To build a web project, various 
+              programming languages, scripting languages and tools are used. Project managers may be 
+              client managers in web projects. Web-based projects are mainly unique or new projects that
+               are feature-based. In web project management, the organization structure is temporary and
+                performed in a dynamic work environment. 
               </p>
               <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit.
-                Non aspernatur atque natus ut cum nam et. Praesentium error
-                dolores rerum minus sequi quia veritatis eum. Eos et doloribus
-                doloremque nesciunt molestiae laboriosam.
+              Higher risks are involved in web projects as a new
+                 creative approach and various functions are used. The project manager has to define all the financial,
+                  quality, logical constraints in the web project according to the project specifications.
               </p>
               <div className="testimonial-item">
                 <p>
