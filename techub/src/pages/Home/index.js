@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -9,15 +9,15 @@ export default function Home() {
   }, [])
   return (
     <div>
-      <section id="hero" className="d-flex align-items-center">
+      <section id="hero" className="d-flex align-items-center" >
 
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-              <h1>WELCOME TO TECHHUB </h1>
+            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
+              <h1 >WELCOME TO TECHHUB </h1>
               
             </div>
-            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
               <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
             </div>
           </div>
@@ -39,40 +39,40 @@ export default function Home() {
             </div>
 
             <div className="row">
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div className="icon-box">
                   <div className="icon"></div>
                   <h4><a href>Web Development</a></h4>
-                  <p>“Websites promote you 24/7: No employee will do that.”</p>
+                  <p>Websites promote you 24/7: No employee will do that.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-file"></i></div>
                   <h4><a href>Android Development</a></h4>
-                  <p>“Your mobile device has quickly become the easiest portal into your digital self.”</p>
+                  <p>Your mobile device has quickly become the easiest portal into your digital self.</p>
                   <a href="http://">Learn more </a>
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-tachometer"></i></div>
                   <h4><a href>Machine Learning</a></h4>
-                  <p>"Prediction thefuture isn't magic, it's artificial intelligence."</p>
+                  <p>Prediction thefuture isn't magic, it's artificial intelligence.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="fade-up" data-aos-delay="400">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-layer"></i></div>
-                  <h4><a href>Games</a></h4>
-                  <p>"Life is a difficult game. You can win it only by retaining your birthright to be a person."</p>
+                  <h4><a href>Game Development</a></h4>
+                  <p>Life is a difficult game. You can win it only by retaining your birthright to be a person.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
@@ -134,7 +134,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-globe2"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/web" className="stretched-link">
                   <h3>Web Development</h3>
                 </a>
                 <p>Web based projects designed and programmed for user to experience different services on their browsers.</p>
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-android2"></i>
                 </div>
-                <a href
+                <a href="/android"
                  className="stretched-link">
                   <h3>Android Development</h3>
                 </a>
@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-robot"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/machine" className="stretched-link">
                   <h3>Machine Learning</h3>
                 </a>
                 <p>ML based projects designed and programmed for user to experience different services on their browsers</p>
@@ -189,8 +189,8 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-controller"></i>
                 </div>
-                <a href className="stretched-link">
-                  <h3>Game</h3>
+                <a href="/games" className="stretched-link">
+                  <h3>Game Development</h3>
                 </a>
                 <p> Game based projects designed and programmed for user to experience different services on their browsers.</p>
               </div>
@@ -206,7 +206,7 @@ export default function Home() {
                 <div className="icon">
                   <i className="bi bi-clouds"></i>
                 </div>
-                <a href className="stretched-link">
+                <a href="/iot" className="stretched-link">
                   <h3>Internet of Things</h3>
                 </a>
                 <p>IOT based projects designed and programmed for user to experience different services on their browsers.</p>
