@@ -34,8 +34,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
-  background-color: black;
+  color: black;
+  background-color: #f3f5fa;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #0f2346;
   text-decoration: none;
 }
 
@@ -55,6 +55,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  color: #37517e;
 }
 
 /*--------------------------------------------------------------

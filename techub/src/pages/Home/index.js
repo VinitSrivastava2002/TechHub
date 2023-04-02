@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
