@@ -7,7 +7,7 @@ function Footer(){
             <footer id="footer" className="footer">
             <div className="container">
         <div className="copyright">
-        &copy; Copyright <strong><span>TechHub</span></strong>. All Rights Reserved
+        &copy; <strong><span>TechHub</span></strong> Made By Axians 🖤
       </div>
     </div>
   </footer>

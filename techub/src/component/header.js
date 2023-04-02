@@ -12,7 +12,7 @@ return(
 
       <a href="index.html" className="logo d-flex align-items-center  me-auto me-lg-0">
         {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
-         <h2 style={{color:'#fff'}}>TECHHUB</h2>
+         <h2 style={{color:'#fff' , marginLeft: '1.25rem' }}>TECHHUB</h2>
         {/* <i className="bi bi-camera"></i> */}
         {/* <h1>TechHub</h1> */}
       </a>
