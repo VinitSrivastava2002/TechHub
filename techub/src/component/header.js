@@ -2,6 +2,7 @@ import React from 'react';
 
 
 
+
 function Header() {
 return(
     <div>
@@ -27,10 +28,10 @@ return(
           <li className="dropdown"><a href><span>Project Gallery</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
         
-              <li><a href="gallery.html">Web Development</a></li>
-              <li><a href="gallery.html">Android Development</a></li>
-              <li><a href="gallery.html">Machine Learning</a></li>
-              <li><a href="gallery.html">Games</a></li>
+              <li><a href="/web">Web Development</a></li>
+              <li><a href="/android">Android Development</a></li>
+              <li><a href="/gallery/machine">Machine Learning</a></li>
+              <li><a href="/gallery/games">Games</a></li>
               {/* <li><a href="gallery.html">Sports</a></li>
               <li><a href="gallery.html">Travel</a></li> */}
               {/* <li className="dropdown"><a href><span>Sub Menu</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
