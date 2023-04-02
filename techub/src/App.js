@@ -2,8 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './component/footer';
 import Header from './component/header';
-import Home from './pages';
-import About from './pages/About';
+import Home from './pages/Home';
 import contact from './pages/contact';
 
 function App() {
