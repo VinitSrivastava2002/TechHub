@@ -4,7 +4,7 @@ import "./style.module.css";
 
 function About() {
   return (
-    <div className='body'>
+    <div>
       
   {/* ======= About Section ======= */}
   <section id="about" className="about">
