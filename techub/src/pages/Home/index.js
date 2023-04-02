@@ -9,15 +9,15 @@ export default function Home() {
   }, [])
   return (
     <div>
-      <section id="hero" className="d-flex align-items-center">
+      <section id="hero" className="d-flex align-items-center" >
 
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-              <h1>WELCOME TO TECHHUB </h1>
+            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
+              <h1 >WELCOME TO TECHHUB </h1>
               
             </div>
-            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
               <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
             </div>
           </div>
@@ -39,40 +39,40 @@ export default function Home() {
             </div>
 
             <div className="row">
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div className="icon-box">
                   <div className="icon"></div>
                   <h4><a href>Web Development</a></h4>
-                  <p>“Websites promote you 24/7: No employee will do that.”</p>
+                  <p>Websites promote you 24/7: No employee will do that.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-file"></i></div>
                   <h4><a href>Android Development</a></h4>
-                  <p>“Your mobile device has quickly become the easiest portal into your digital self.”</p>
+                  <p>Your mobile device has quickly become the easiest portal into your digital self.</p>
                   <a href="http://">Learn more </a>
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-tachometer"></i></div>
                   <h4><a href>Machine Learning</a></h4>
-                  <p>"Prediction thefuture isn't magic, it's artificial intelligence."</p>
+                  <p>Prediction thefuture isn't magic, it's artificial intelligence.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+              <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="fade-up" data-aos-delay="400">
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-layer"></i></div>
                   <h4><a href>Games</a></h4>
-                  <p>"Life is a difficult game. You can win it only by retaining your birthright to be a person."</p>
+                  <p>Life is a difficult game. You can win it only by retaining your birthright to be a person.</p>
                   <a href="http://">Learn more </a>
 
                 </div>
