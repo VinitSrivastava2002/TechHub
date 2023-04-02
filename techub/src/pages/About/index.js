@@ -182,16 +182,53 @@ function About() {
         {/* <!-- ======= Our Team Section ======= --> */}
         <section id="team" class="team">
           <div class="container" data-aos="fade-up">
+          <div class="row gy-5">
+          <div class="section-title">
+             <h2>MENTOR</h2>
+            </div>
+
+              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                <div class="member-img">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shubhaa.jpg?alt=media&token=a44f79a3-ec41-46a4-b09f-98c1f748821d" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href><i class="bi bi-twitter"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+                    
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>Mrs SUBHA JAIN</h4>
+                  <span>HOD</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                <div class="member-img">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shail.jpg?alt=media&token=e0ab3561-b05f-45b2-ab65-49dd93c21ea5" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href><i class="bi bi-twitter"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>Mrs SHAIL DUBEY</h4>
+                  <span>Associate Professor</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
 
             <div class="section-title">
              <h2>OUR TEAM</h2>
             </div>
 
-            <div class="row gy-5">
+            
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
-                  <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/kammo2.jpeg?alt=media&token=d27f6529-afbd-49e6-9727-3a873f7e46ed" class="img-fluid" alt="" />
                   <div class="social">
                     <a href="https://twitter.com/vanya_rastogi"><i class="bi bi-twitter"></i></a>
                     <a href="https://github.com/VanyaRastogi"><i class="bi bi-github"></i></a>
@@ -208,7 +245,7 @@ function About() {
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
-                  <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/sivakur2.jpeg?alt=media&token=59156c05-62ec-40dd-821f-867d5e9e1e6c" class="img-fluid" alt="" />
                   <div class="social">
                   <a href="https://twitter.com/ShivankurSingh2"><i class="bi bi-twitter"></i></a>
                     <a href="https://github.com/Shivankur25"><i class="bi bi-github"></i></a>
@@ -225,7 +262,7 @@ function About() {
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
                 <div class="member-img">
-                  <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/MYPIC1.jpeg?alt=media&token=d1566d7e-c206-4d26-8374-7139c84daf9b" class="img-fluid" alt="" />
                   <div class="social">
                   <a href><i class="bi bi-twitter"></i></a>
                     <a href="https://github.com/VinitSrivastava2002"><i class="bi bi-github"></i></a>
@@ -242,7 +279,7 @@ function About() {
 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                  <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fstt.png?alt=media&token=4437873e-1402-4fba-b464-98ea7ebb19e3" class="img-fluid" alt="" />
                   <div class="social">
                   <a href><i class="bi bi-twitter"></i></a>
                     <a href="https://github.com/rana830"><i class="bi bi-github"></i></a>
@@ -257,42 +294,7 @@ function About() {
               </div>
               {/* <!-- End Team Member --> */}
 
-              <div class="section-title">
-             <h2>MENTOR</h2>
-            </div>
-
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-                <div class="member-img">
-                  <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
-                  <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-github"></i></a>
-                    
-                    <a href><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info text-center">
-                  <h4>MRS SUBHA JAIN</h4>
-                  <span>HOD</span>
-                </div>
-              </div>
-              {/* <!-- End Team Member --> */}
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-                <div class="member-img">
-                  <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" />
-                  <div class="social">
-                    <a href><i class="bi bi-twitter"></i></a>
-                    <a href><i class="bi bi-github"></i></a>
-
-                    <a href><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info text-center">
-                  <h4>MRS SHAIL DUBEY</h4>
-                  <span>Associate Professor</span>
-                </div>
-              </div>
-              {/* <!-- End Team Member --> */}
+              
 
             </div>
 
