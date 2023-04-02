@@ -18,7 +18,6 @@ export default function contact() {
   </div>
 </div>
 {/* <!-- End Page Header --> */}
-
 {/* <!-- ======= Contact Section ======= --> */}
 <section id="contact" class="contact">
   <div class="container">
@@ -35,7 +34,6 @@ export default function contact() {
         </div>
       </div>
       {/* <!-- End Info Item --> */}
-
       <div class="col-lg-3">
         <div class="info-item d-flex">
           <i class="bi bi-envelope flex-shrink-0"></i>
@@ -63,7 +61,7 @@ export default function contact() {
     <div class="row justify-content-center mt-4">
 
       <div class="col-lg-9">
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        {/* <form action="forms/contact.php" method="post" role="form" class="php-email-form"> */}
           <div class="row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required/>
@@ -84,7 +82,7 @@ export default function contact() {
             <div class="sent-message">Your message has been sent. Thank you!</div>
           </div>
           <div class="text-center"><button type="submit">Send Message</button></div>
-        </form>
+        {/* </form> */}
       </div>
       {/* <!-- End Contact Form --> */}
 
