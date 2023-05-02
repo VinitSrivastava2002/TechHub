@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./Project.Module.css"
+// import "./Project.Module.css"
 
 import AOS from "aos";
 import "aos/dist/aos.css";

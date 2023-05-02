@@ -54,7 +54,7 @@ function Web() {
                     {/* <i className="bi bi-zoom-in" /> */}
                   </a>
                   <a
-                    href="/projectdetail"
+                    href="/projectdetail1"
                     title="More Details"
                     className="details-link"
                   >
@@ -85,7 +85,7 @@ function Web() {
                     {/* <i className="bi bi-zoom-in" /> */}
                   </a>
                   <a
-                    href="/projectdetail"
+                    href="/projectdetail2"
                     title="More Details"
                     className="details-link"
                   >
@@ -116,7 +116,7 @@ function Web() {
                     {/* <i className="bi bi-zoom-in" /> */}
                   </a>
                   <a
-                    href="project-details.html"
+                    href="/projectdetail3"
                     title="More Details"
                     className="details-link"
                   >
@@ -147,7 +147,7 @@ function Web() {
                     {/* <i className="bi bi-zoom-in" /> */}
                   </a>
                   <a
-                    href="project-details.html"
+                    href="/projectdetail4"
                     title="More Details"
                     className="details-link"
                   >

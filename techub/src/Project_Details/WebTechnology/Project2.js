@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-// import "./Project.Module.css"
+ //import "./Project.Module.css"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Project_details() {
+function Project2() {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -18,7 +18,7 @@ function Project_details() {
 <div className="container">
   <div className="row">
     <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-      <h1>Project 1 </h1>
+      <h1>Project 2 </h1>
       
     </div>
     {/* <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -29,25 +29,7 @@ function Project_details() {
 
 </section>
   <main id="main">
-    {/* ======= Breadcrumbs ======= */}
-    {/* <div
-      className="breadcrumbs d-flex align-items-center"
-      style={{ backgroundImage: 'url("assets/img/breadcrumbs-bg.jpg")' }}
-    >
-      <div
-        className="container position-relative d-flex flex-column align-items-center"
-        data-aos="fade"
-      >
-        <h2>Project Details</h2>
-        <ol>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>Project Details</li>
-        </ol>
-      </div>
-    </div> */}
-    {/* End Breadcrumbs */}
+   
     {/* ======= Projet Details Section ======= */}
     <section id="project-details" className="project-details">
       <div className="container" data-aos="fade-up" data-aos-delay={100}>
@@ -157,4 +139,4 @@ function Project_details() {
   )
 }
 
-export default Project_details
+export default Project2;
