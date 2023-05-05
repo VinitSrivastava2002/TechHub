@@ -67,6 +67,8 @@ p {
 }
 
 
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -184,52 +186,7 @@ p {
 }
 
 
-.breadcrumbs:before {
-  
-  content: "";
-  
-  position: absolute;
-  inset: 0;
-}
 
-.breadcrumbs h2 {
-  font-size: 56px;
-  font-weight: 500;
-  color: #fff;
-  font-family: var(--font-secondary);
-  
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-.breadcrumbs ol a {
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s;
-}
-
-.breadcrumbs ol a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #fff;
-  content: "/";
-}
 
 
    /*--------------------------------------------------------------
@@ -242,7 +199,7 @@ p {
   }
   
   #hero .container {
-    padding-top: 72px;
+    padding-top: 78px;
   }
   
   #hero h1 {
@@ -1133,7 +1090,7 @@ p {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  margin-top: 30px;
+  margin-top: 0px;
   padding: 13px 0;
   font-size: 14px;
   border-top: 1px solid rgba(20, 20, 20, 0.15);
