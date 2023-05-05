@@ -17,48 +17,17 @@ function About() {
     <div>
 
       
-  {/* ======= About Section ======= */}
-  <section id="about" className="about">
-    <div className="container" >
-      <div className="row position-relative">
-        <div
-          className="col-lg-7 about-img"
-           style={{ backgroundImage: "url(assets/img/download.png)" }}
-        />
-        <div className="col-lg-7">
-          <h3 className>Consequatur eius et magnam</h3>
-          <div className="our-story">
-            <h4>On 2022</h4>
-            <h3>Our Story</h3>
-            <p>
-              Inventore aliquam beatae at et id alias. Ipsa dolores amet
-              consequuntur minima quia maxime autem. Quidem id sed ratione.
-              Tenetur provident autem in reiciendis rerum at dolor. Aliquam
-              consectetur laudantium temporibus dicta minus dolor.
-            </p>
-            <ul>
-              <li>
-                <i className="bi bi-check-circle" />{" "}
-                <span>Ullamco laboris nisi ut aliquip ex ea commo</span>
-              </li>
-              <li>
-                <i className="bi bi-check-circle" />{" "}
-                <span>Duis aute irure dolor in reprehenderit in</span>
-              </li>
-              <li>
-                <i className="bi bi-check-circle" />{" "}
-                <span>Ullamco laboris nisi ut aliquip ex ea</span>
-              </li>
-            </ul>
-            <p>
-              Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non
-              nesciunt suscipit repellendus porro in quo eveniet. Molestias in
-              maxime doloremque.
-            </p>
-           
-          </div>
-        </div>
-      </div>
+
+      <section id="hero" className="d-flex align-items-center" >
+
+<div className="container">
+  <div className="row">
+    <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
+      <h1 >ABOUT TECHHUB </h1>
+      
+    </div>
+    <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
+      <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Faboutlogo.png?alt=media&token=05b0c2e5-8488-408a-b939-21bef743d3fd" className="img-fluid animated" alt="" />
     </div>
   </div>
 </div>
@@ -151,95 +120,57 @@ function About() {
             </div>
 
           </div>
-        </div>
-        {/* End Stats Item */}
-      </div>
-    </div>
-  </section>
-  {/* End Stats Counter Section */}
-  {/* ======= Alt Services Section ======= */}
- 
-  {/* End Alt Services Section */}
-  {/* ======= Alt Services Section 2 ======= */}
-  <section id="alt-services-2" className="alt-services section-bg">
-    <div className="container" >
-      <div className="row justify-content-around gy-4">
-        <div className="col-lg-5 d-flex flex-column justify-content-center">
-          <h3>
-            Non quasi officia eum nobis et rerum epudiandae rem voluptatem
-          </h3>
-          <p>
-            Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
-            non. Ducimus maxime minima iste magni sit praesentium assumenda
-            minus. Amet rerum saepe tempora vero.
-          </p>
-          <div
-            className="icon-box d-flex position-relative"
-            
-          >
-            <i className="bi bi-easel flex-shrink-0" />
-            <div>
-              <h4>
-                <a href="" className="stretched-link">
-                  Web Development
-                </a>
-              </h4>
-              <p>
-              Web development is designing and coding a functional layout for your site, making sure it's compatible with all browsers, mobile devices, and other devices that might access the site
-              </p>
-            </div>
-          </div>
-          {/* End Icon Box */}
-          <div
-            className="icon-box d-flex position-relative"
-            
-          >
-            <i className="bi bi-patch-check flex-shrink-0" />
-            <div>
-              <h4>
-                <a href="" className="stretched-link">
-                  Android Development
-                </a>
-              </h4>
-              <p>  
-              Android development is a form of software engineering dedicated specifically to creating applications for devices that run on the Android platform.
-              </p>
-            </div>
-          </div>
-          {/* End Icon Box */}
-          <div
-            className="icon-box d-flex position-relative"
-            
-          >
-            <i className="bi bi-brightness-high flex-shrink-0" />
-            <div>
-              <h4>
-                <a href="" className="stretched-link">
-                  Machine Learning
-                </a>
-              </h4>
-              <p>
-                Explicabo est voluptatum asperiores consequatur magnam. Et
-                veritatis odit. Sunt aut deserunt minus aut eligendi omnis
-              </p>
-            </div>
-          </div>
-          {/* End Icon Box */}
-          <div
-            className="icon-box d-flex position-relative"
-            
-          >
-            <i className="bi bi-brightness-high flex-shrink-0" />
-            <div>
-              <h4>
-                <a href="" className="stretched-link">
-                  Game Development
-                </a>
-              </h4>
-              <p>
-                Est voluptatem labore deleniti quis a delectus et. Saepe dolorem
-                libero sit non aspernatur odit amet. Et eligendi
-              </p>
+        </section>
+        {/* <!-- End Stats Counter Section --> */}
+
+        {/* <!-- ======= Alt Services Section ======= --> */}
+        <section id="alt-services" class="alt-services">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-around gy-4">
+              <div class="col-lg-6 img-bg"  data-aos="zoom-in" data-aos-delay="100"></div>
+
+              <div class="col-lg-5 d-flex flex-column justify-content-center">
+                <h3>Technologies we used</h3>
+                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi bi-easel flex-shrink-0"></i>
+                  <div>
+                    <h4><a href class="stretched-link">Web Development</a></h4>
+                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+                {/* <!-- End Icon Box --> */}
+
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4><a href class="stretched-link">Android Development</a></h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                  </div>
+                </div>
+                {/* <!-- End Icon Box --> */}
+
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-brightness-high flex-shrink-0"></i>
+                  <div>
+                    <h4><a href class="stretched-link">Machine Learning</a></h4>
+                    <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                  </div>
+                </div>
+                {/* <!-- End Icon Box --> */}
+
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-brightness-high flex-shrink-0"></i>
+                  <div>
+                    <h4><a href class="stretched-link">Game Development</a></h4>
+                    <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                  </div>
+                </div>
+                {/* <!-- End Icon Box --> */}
+
+              </div>
             </div>
 
           </div>
@@ -255,75 +186,42 @@ function About() {
           <div class="section-title">
              <h2>MENTOR</h2>
             </div>
-          </div>
-          <div className="member-info text-center">
-            <h4>Vanya Rastogi</h4>
-            <span>Team Leader</span>
-            <p>
-              Aliquam iure quaerat voluptatem praesentium possimus unde
-              laudantium vel dolorum distinctio dire flow
-            </p>
-          </div>
-        </div>
-        {/* End Team Member */}
-        <div
-          className="col-lg-4 col-md-6 member"
-          
-        >
-          <div className="member-img">
-            <img
-              src="assets/img/team/stt.png"
-              className="img-fluid"
-              alt=""
-            />
-            <div className="social">
-              <a href="#">
-                <i className="bi bi-twitter" />
-              </a>
-              <a href="#">
-                <i className="bi bi-facebook" />
-              </a>
-              <a href="#">
-                <i className="bi bi-instagram" />
-              </a>
-              <a href="#">
-                <i className="bi bi-linkedin" />
-              </a>
-            </div>
-          </div>
-          <div className="member-info text-center">
-            <h4>Rana Pratap Singh</h4>
-            <span>Product Manager</span>
-            <p>
-              Labore ipsam sit consequatur exercitationem rerum laboriosam
-              laudantium aut quod dolores exercitationem ut
-            </p>
-          </div>
-        </div>
-        {/* End Team Member */}
-        <div
-          className="col-lg-4 col-md-6 member"
-          
-        >
-          <div className="member-img">
-            <img
-              src="assets/img/team/team-3.jpg"
-              className="img-fluid"
-              alt=""
-            />
-            <div className="social">
-              <a href="#">
-                <i className="bi bi-twitter" />
-              </a>
-              <a href="#">
-                <i className="bi bi-facebook" />
-              </a>
-              <a href="#">
-                <i className="bi bi-instagram" />
-              </a>
-              <a href="#">
-                <i className="bi bi-linkedin" />
-              </a>
+
+              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                <div class="member-img">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shubhaa.jpg?alt=media&token=a44f79a3-ec41-46a4-b09f-98c1f748821d" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href><i class="bi bi-twitter"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+                    
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>Mrs SUBHA JAIN</h4>
+                  <span>HOD</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                <div class="member-img">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shail.jpg?alt=media&token=e0ab3561-b05f-45b2-ab65-49dd93c21ea5" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href><i class="bi bi-twitter"></i></a>
+                    <a href><i class="bi bi-github"></i></a>
+
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>Mrs SHAIL DUBEY</h4>
+                  <span>Associate Professor</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+            <div class="section-title">
+             <h2>OUR TEAM</h2>
             </div>
 
             
