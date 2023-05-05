@@ -39,7 +39,7 @@
   --------------------------------------------------------------*/
   body {
     font-family: var(--font-default);
-    color: white;
+    color: #37517e;
     overflow-x: hidden;
   }
   
@@ -62,16 +62,54 @@
     font-family: var(--font-primary);
   }
   
+  /* pure counter */
+  .purecounter {
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.purecounter:before {
+    content: attr(data-purecounter-start);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.purecounter:after {
+    content: attr(data-purecounter-end);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.purecounter.animated:before {
+    animation: purecounter 2.5s ease-out;
+    opacity: 1;
+}
+
+.purecounter.animated:after {
+    animation: purecounter 2.5s ease-out;
+    animation-delay: 2.5s;
+    opacity: 1;
+}
+
+
+
+  
   /*--------------------------------------------------------------
   # Sections & Section Header
   --------------------------------------------------------------*/
   section {
-    padding: 80px 0;
+    padding: 70px 0;
     overflow: hidden;
   }
   
   .section-bg {
-    background-color: #f5f6f7;
+    background-color: #37517e;
   }
   
   .section-header {
@@ -1119,22 +1157,6 @@
     color: var(--color-primary);
   }
   
-  .about .watch-video i {
-    font-size: 32px;
-    transition: 0.3s;
-    color: var(--color-primary);
-  }
-  
-  .about .watch-video a {
-    font-weight: 600;
-    color: var(--color-secondary);
-    margin-left: 8px;
-    transition: 0.3s;
-  }
-  
-  .about .watch-video:hover a {
-    color: var(--color-primary);
-  }
   
   .about .about-img {
     min-height: 600px;

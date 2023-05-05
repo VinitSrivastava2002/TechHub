@@ -1,0 +1,360 @@
+{
+    "webDevelopmentProjects": [
+      {
+        "id": 1,
+        "name": "Doctor-Appointment-App",
+        "description": "This is a full stack development project in which a person can book a slot with doctor",
+        "category": "Web Development",
+        "images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "client": "ABC Company",
+        "projectDate": "2023-05-05",
+        "projectUrl": "https://github.com/TechHub2023/Doctor-Appointment-App.git"
+      },
+      {
+        "id": 2,
+        "name": "CovidTracker",
+        "description": "The idea behind this application is to displays the statistics of Coronavirus COVID-19 around the world and the data are being collected from Johns Hopkins University Center for Systems Science and Engineering JHU CSSE and it updates the cases constantly on this website around the world. ",
+        "category": "Web Development",
+        "images": [
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ],
+        "client": "Anshuman Pattnaik",
+        "projectDate": "2020-02-01",
+        "projectUrl": "https://github.com/TechHub2023/Covid19-track.git"
+      },
+      {
+        "id": 3,
+        "name": "Hospital Management",
+        "description": "ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved",
+        "category": "Web Development",
+        "images": [
+          "https://example.com/image5.jpg",
+          "https://example.com/image6.jpg"
+        ],
+        "client": "Kishan",
+        "projectDate": "2021-03-13",
+        "projectUrl": "https://github.com/TechHub2023/Hospital-Management.git"
+      },
+      {
+        "id": 4,
+        "name": "House Keeper",
+        "description": "Design an application which hostel students can use to get their rooms cleaned on time. The current management system found it difficult to schedule cleaning services as students have varying class schedules which resulted in improper utilization of hostel room cleaning services.",
+        "category": "Web Development",
+        "images": [
+          "https://example.com/image7.jpg",
+          "https://example.com/image8.jpg"
+        ],
+        "client": "Manadkat",
+        "projectDate": "2019-09-15",
+        "projectUrl": "https://github.com/TechHub2023/House-Keeper.git"
+      },
+      {
+        "id": 5,
+        "name": "Restaurant Order",
+        "description": "This is a full stack development project in which person can order anything by restaurant and it is completely responsive",
+        "category": "Web Development",
+        "images": [
+          "https://example.com/image9.jpg",
+          "https://example.com/image10.jpg"
+        ],
+        "client": "EFG Co.",
+        "projectDate": "2023-03-05",
+        "projectUrl": "https://github.com/TechHub2023/Restaurant-Order.git"
+    }
+],
+
+
+   
+
+    "androidDevelopmentProjects": [
+      {
+        "id": 1,
+        "name": "Xiaomi Hackathon 2022",
+        "description": "This is an Android development project ",
+        "category": "Android Development",
+        "images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "client": "Apreksha Mathur",
+        "projectDate": "2022-01-01",
+        "projectUrl": "https://github.com/TechHub2023/Xiaomi-hackathon.git"
+      },
+      {
+        "id": 2,
+        "name": "Books House Master",
+        "description": "This is another Android development project in which all the books are stored in a database ",
+        "category": "Android Development",
+        "images": [
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ],
+        "client": "XYZ Corporation",
+        "projectDate": "2023-05-05",
+        "projectUrl": "https://github.com/TechHub2023/Books-Houses-Master.git"
+      },
+      {
+        "id": 3,
+        "name": "Python to App",
+        "description": "This is a Android development project which covert your python code into an application",
+        "category": "Android Development",
+        "images": [
+          "https://example.com/image5.jpg",
+          "https://example.com/image6.jpg"
+        ],
+        "client": "PQR Inc.",
+        "projectDate": "2020-12-09",
+        "projectUrl": "https://github.com/TechHub2023/Code-to-App.git"
+      },
+      {
+        "id": 4,
+        "name": "Blood Bank",
+        "description": "Blood Point” is an android application to collect or donate blood easily. Users who have an android phone & active internet connection can contact and start searching for a donor easily through this application. The purpose of this application is to help people belonging to rural areas.",
+        "category": "Android Development",
+        "images": [
+          "https://example.com/image7.jpg",
+          "https://example.com/image8.jpg"
+        ],
+        "client": "LMN Ltd.",
+        "projectDate": "2022-07-24",
+        "projectUrl": "https://github.com/TechHub2023/BloodBank-App.git"
+      },
+      {
+        "id": 5,
+        "name": "Farming App",
+        "description": "This is a  Android development project which is build for farmers which are not aware the news,rate,weather forecasting.It is easy to use",
+        "category": "Android Development",
+        "images": [
+          "https://example.com/image9.jpg",
+          "https://example.com/image10.jpg"
+        ],
+        "client": "EFG Co.",
+        "projectDate": "2021-02-02",
+        "projectUrl": "https://github.com/TechHub2023/FarmingApp.git"
+      }
+    ],
+  
+
+  
+    "machineLearningProjects": [
+      {
+        "id": 1,
+        "name": "Flow Meter",
+        "description": "FlowMeter is an experimental utility built for analysing and classifing packets by looking at packet headers.",
+        "category": "Machine Learning",
+        "images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "client": "ABC Company",
+        "projectDate": "2023-03-28",
+        "projectUrl": "https://github.com/TechHub2023/FlowMeter-ML.git"
+      },
+      {
+        "id": 2,
+        "name": "Birch ML",
+        "description": "Birch is a probabilistic programming language featuring automatic marginalization, automatic conditioning, automatic differentiation, and inference algorithms based on Sequential Monte Carlo (SMC). The Birch language transpiles to C++.",
+        "category": "Machine Learning",
+        "images": [
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ],
+        "client": "XYZ Corporation",
+        "projectDate": "2023-03-26",
+        "projectUrl": "https://github.com/TechHub2023/Birch-ML.git"
+      },
+      {
+        "id": 3,
+        "name": "CO2 Emission",
+        "description": "I developed Machine Learning software that predicts annual CO2 emissions from base stations around the world. With this machine learning software, you will be able to predict how much CO2 is emitted by base stations in which country, year by year. You will also be able to find the predicted country. The decision tree is automatically saved as .dot. The data has been meticulously entered by me and the software is completely original.",
+        "category": "Machine Learning",
+        "images": [
+          "https://example.com/image5.jpg",
+          "https://example.com/image6.jpg"
+        ],
+        "client": "PQR Inc.",
+        "projectDate": "2021-08-24",
+        "projectUrl": "https://github.com/TechHub2023/CO2-Emission-ML.git"
+      },
+      {
+        "id": 4,
+        "name": "Movie Recommendation System",
+        "description": " Type the name of a movie in the search bar, and the system will provide the movie recommendation.",
+       
+        "category": "Machine Learning",
+        "images": [
+          "https://example.com/image7.jpg",
+          "https://example.com/image8.jpg"
+        ],
+        "client": "LMN Ltd.",
+        "projectDate": "2023-03-22",
+        "projectUrl": "https://github.com/TechHub2023/Movie-Recommendation-ML.git"
+      },
+      {
+        "id": 5,
+        "name": "Breast Cancer Detection",
+        "description": "Breast Cancer Detection App Using Machine Learning XGBoost Classifier",
+        "category": "Machine Learning",
+        "images": [
+          "https://example.com/image9.jpg",
+          "https://example.com/image10.jpg"
+        ],
+        "client": "EFG Co.",
+        "projectDate": "2023-05-05",
+        "projectUrl": "https://github.com/TechHub2023/Breast-Cancer-Detection-ML-Project-master.git"
+      }
+    ],
+  
+    "iotProjects": [
+      {
+        "id": 1,
+        "name": "HomeFi",
+        "description": "This project is a starting point for a Flutter application.A few resources to get you started if this is your first Flutter project:",
+
+        
+        "category": "IoT",
+        "images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "client": "ABC Company",
+        "projectDate": "2021-07-10",
+        "projectUrl": "https://github.com/TechHub2023/HomeFi.git"
+      },
+      {
+        "id": 2,
+        "name": "OpenRemote",
+        "description": "Welcome to OpenRemote; an intuitive user-friendly 100% open source IoT platform. You can build a complete IoT device management solution including: device management and auto provisioning, customisation of asset types, automation via when-then, flow, javascript and groovy rules, data analytics, connectivity via several protocol agents and manager APIs (e.g. MQTT broker, HTTP/REST, WS), Multi-tenancy (realms), Users and roles management, Edge gateway, Front-end UI web components and consoles, and an Insights dashboard builder.",
+        "category": "IoT",
+        "images": [
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ],
+        "client": "XYZ Corporation",
+        "projectDate": "2023-05-05",
+        "projectUrl": "https://github.com/TechHub2023/Ecommerce-Android-App.git"
+      },
+      {
+        "id": 3,
+        "name": "GoBot",
+        "description": "Gobot (https://gobot.io/) is a framework using the Go programming language (https://golang.org/) for robotics, physical computing, and the Internet of Things. It provides a simple, yet powerful way to create solutions that incorporate multiple, different hardware devices at the same time.",
+
+       
+        "category": "IoT",
+        "images": [
+          "https://example.com/image5.jpg",
+          "https://example.com/image6.jpg"
+        ],
+        "client": "PQR Inc.",
+        "projectDate": "2019-10-15",
+        "projectUrl": "https://github.com/TechHub2023/GoBot-iot.git"
+      },
+      {
+        "id": 4,
+        "name": "OpenThread iot",
+        "description": "..an open-source implementation of the Thread networking protocol. Google Nest has released OpenThread to make the technology used in Nest products more broadly available to developers to accelerate the development of products for the connected home....OS and platform agnostic, with a narrow platform abstraction layer and a small memory footprint, making it highly portable. It supports both system-on-chip (SoC) and network co-processor (NCP) designs....a Thread Certified Component, implementing all features defined in the Thread 1.3.0 specification, including all Thread networking layers (IPv6, 6LoWPAN, IEEE 802.15.4 with MAC security, Mesh Link Establishment, Mesh Routing) and device roles, as well as Border Router support. More information about Thread can be found at threadgroup.org. Thread is a registered trademark of the Thread Group, Inc.",
+
+        "category": "IoT",
+        "images": [
+          "https://example.com/image7.jpg",
+          "https://example.com/image8.jpg"
+        ],
+        "client": "LMN Ltd.",
+        "projectDate": "2020-07-01",
+        "projectUrl": "https://github.com/TechHub2023/OpenThread-iot.git"
+      },
+      {
+        "id": 5,
+        "name": "Connected Home",
+        "description": "Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standards Alliance.",
+        "category": "IoT",
+        "images": [
+          "https://example.com/image9.jpg",
+          "https://example.com/image10.jpg"
+        ],
+        "client": "EFG Co.",
+        "projectDate": "2020-01-17",
+        "projectUrl": "https://github.com/TechHub2023/ConnectedHome-iot.git"
+      }
+    ],
+  
+
+  
+    "gameDevProjects": [
+      {
+        "id": 1,
+        "name": "Trigger Rally",
+        "description": "This is a game development project in which mostly JavaScript used.It is a rally edition game",
+        "category": "Game Development",
+        "images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "client": "ABC Company",
+        "projectDate": "2012-01-01",
+        "projectUrl": "https://github.com/TechHub2023/TriggerRally.git"
+      },
+      {
+        "id": 2,
+        "name": "Bridges Game",
+        "description": "Welcome to the source page for Seven Bridges. Make sure to check out our front page for more information and some cool videos.The city of Königsberg in Prussia (now Kaliningrad, Russia) was built around two rivers with seven bridges. For years the residents tried to cross each bridge without crossing any of them more than once. Leonhard Euler proved that it was impossible to cross all the bridges without repeating and laid the foundation for graph theory and modern topology at the same time. This project is an iPad and iPhone game based on those famous bridges. Each level presents a puzzle with bridges to cross, houses to visit, and sometimes coins to collect.",
+
+        "category": "Game Development",
+        "images": [
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg"
+        ],
+        "client": "XYZ Corporation",
+        "projectDate": "2021-05-12",
+        "projectUrl": "https://github.com/TechHub2023/BridgesGame.git"
+      },
+      {
+        "id": 3,
+        "name": "Flourish",
+        "description": "Flourish is a proof-of-concept video game designed and developed for children with Autism Spectrum Disorder. The current version is a prototype which will now be further developed into a minimum viable product.",
+        "category": "Game Development",
+        "images": [
+          "https://example.com/image5.jpg",
+          "https://example.com/image6.jpg"
+        ],
+        "client": "PQR Inc.",
+        "projectDate": "2022-04-29",
+        "projectUrl": "https://github.com/TechHub2023/Florish-Game.git"
+      },
+      {
+        "id": 4,
+        "name": "Snake Water",
+        "description": "This game is just like stone,paper,scissors which we used to play in our childhood.But we want someone to play with us. This time ur competitor is computer itself. In this game if you choose snake over water then snake wins because snake drinks that water. If you choose gun over snake then gun wins because gun shoots snake and so on.",
+        "category": "Game Development",
+        "images": [
+          "https://example.com/image7.jpg",
+          "https://example.com/image8.jpg"
+        ],
+        "client": "LMN Ltd.",
+        "projectDate": "2022-09-26",
+        "projectUrl": "https://github.com/TechHub2023/SnakeWater-Game.git"
+      },
+      {
+        "id": 5,
+        "name": "Pioneer",
+        "description": "Pioneer is a space adventure game set in the Milky Way galaxy at the turn of the 31st century. The game is open-ended, and you are free to explore the millions of star systems in the game. You can land on planets, slingshot past gas giants, and burn yourself to a crisp flying between binary star systems. You can try your hand at piracy, make your fortune trading between systems, or do missions for the various factions fighting for power, freedom or self-determination.",
+
+       
+        "category": "Game Development",
+        "images": [
+          "https://example.com/image9.jpg",
+          "https://example.com/image10.jpg"
+        ],
+        "client": "EFG Co.",
+        "projectDate": "2018-04-01",
+        "projectUrl": "https://github.com/TechHub2023/Pioneer.git"
+      }
+    ]
+  }
+  
+  
+  

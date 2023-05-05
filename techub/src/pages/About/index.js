@@ -11,9 +11,11 @@ function About() {
     <div className="container" >
       <div className="row position-relative">
         <div
-          className="col-lg-7 about-img"
-           style={{ backgroundImage: "url(assets/img/download.png)" }}
-        />
+          className="col-lg-7 about-img">  
+          <img src='assets/img/download.png' alt=" " />
+          </div>
+          
+        
         <div className="col-lg-7">
           <h3 className>Consequatur eius et magnam</h3>
           <div className="our-story">
@@ -139,12 +141,12 @@ function About() {
             className="icon-box d-flex position-relative"
             
           >
-            <i className="bi bi-easel flex-shrink-0" />
+            <i className="ml" />
             <div>
               <h4>
-                <a href="" className="stretched-link">
+               
                   Web Development
-                </a>
+                
               </h4>
               <p>
               Web development is designing and coding a functional layout for your site, making sure it's compatible with all browsers, mobile devices, and other devices that might access the site
@@ -156,12 +158,12 @@ function About() {
             className="icon-box d-flex position-relative"
             
           >
-            <i className="bi bi-patch-check flex-shrink-0" />
+            <i className="ml" />
             <div>
               <h4>
-                <a href="" className="stretched-link">
+               
                   Android Development
-                </a>
+                
               </h4>
               <p>  
               Android development is a form of software engineering dedicated specifically to creating applications for devices that run on the Android platform.
@@ -173,12 +175,12 @@ function About() {
             className="icon-box d-flex position-relative"
             
           >
-            <i className="bi bi-brightness-high flex-shrink-0" />
+            <i className="ml" />
             <div>
               <h4>
-                <a href="" className="stretched-link">
+                
                   Machine Learning
-                </a>
+                
               </h4>
               <p>
                 Explicabo est voluptatum asperiores consequatur magnam. Et
@@ -191,12 +193,12 @@ function About() {
             className="icon-box d-flex position-relative"
             
           >
-            <i className="bi bi-brightness-high flex-shrink-0" />
+            <i className="ml" />
             <div>
               <h4>
-                <a href="" className="stretched-link">
+               
                   Game Development
-                </a>
+                
               </h4>
               <p>
                 Est voluptatem labore deleniti quis a delectus et. Saepe dolorem
@@ -281,7 +283,7 @@ function About() {
               <a href="#">
                 <i className="bi bi-instagram" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/rana-pratap-singh-a05883192">
                 <i className="bi bi-linkedin" />
               </a>
             </div>

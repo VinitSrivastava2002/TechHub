@@ -34,8 +34,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
-  background-color: black;
+  color: black;
+  background-color: #f3f5fa;
 }
 
 a {
@@ -56,6 +56,47 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
+/* purecounter */
+.purecounter {
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+}
+
+.purecounter:before {
+  content: attr(data-purecounter-start);
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.purecounter:after {
+  content: attr(data-purecounter-end);
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.purecounter.animated:before {
+  animation: purecounter 2.5s ease-out;
+  opacity: 1;
+}
+
+.purecounter.animated:after {
+  animation: purecounter 2.5s ease-out;
+  animation-delay: 2.5s;
+  opacity: 1;
+}
+
+
+.ml{
+  color: #059652;
+  
+}
+
 
 /*--------------------------------------------------------------
 # Sections & Section Header
