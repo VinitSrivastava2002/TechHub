@@ -14,7 +14,7 @@ function Project1() {
         <section className="projectdetails" style={{padding:'35px'}}>
             <div className="container">
             <div className="d-flex justify-content-between align-items-center">
-                <h2 >project detail</h2>
+                <h2 >project detail 1</h2>
             </div>
             </div>
         </section>
@@ -49,27 +49,21 @@ function Project1() {
                 <strong>Category</strong>: Web design
               </li>
               <li>
-                <strong>Client</strong>: ASU Company
+                <strong>Client</strong>: AWS
               </li>
               <li>
                 <strong>Project date</strong>: 01 March, 2020
               </li>
               <li>
                 <strong>Project URL</strong>: <a href="#">www.example.com</a>
-              </li>
-              <li>
-                <a href="#" class="btn-visit align-self-start my-2">Visit Website</a>
-                </li>
-            </ul>
+              </li> 
+            </ul><br/>
+            <a href="#" class="btn-visit align-self-start my-2">Visit Website</a>
           </div>
           <div className="portfolio-description">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>About Project</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque
-              inventore commodi labore quia quia. Exercitationem repudiandae
-              officiis neque suscipit non officia eaque itaque enim. Voluptatem
-              officia accusantium nesciunt est omnis tempora consectetur
-              dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              hii this is my first project 
             </p>
           </div>
         </div>

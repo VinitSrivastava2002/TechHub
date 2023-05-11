@@ -2,7 +2,7 @@
 // import "bootstrap/dist/css/bootstrap.css";
 import React, { useEffect } from 'react'
 
-import "./style.module.css";
+import "./about.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,26 +15,21 @@ function About() {
   
   return (
     <div>
-
-      
-
       <section id="hero" className="d-flex align-items-center" >
-
-<div className="container">
-  <div className="row">
-    <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
-      <h1 >ABOUT TECHHUB </h1>
-      
-    </div>
-    <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
-      <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Faboutlogo.png?alt=media&token=05b0c2e5-8488-408a-b939-21bef743d3fd" className="img-fluid animated" alt="" />
-    </div>
-  </div>
-</div>
-
-</section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
+              <h1 >ABOUT TECHHUB </h1>
+              
+            </div>
+            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
+              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Faboutlogo.png?alt=media&token=05b0c2e5-8488-408a-b939-21bef743d3fd" className="img-fluid animated" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 {/* <!-- End Hero --> */}
-<main id="main">
+      <main id="main">
         {/* <!-- ======= About Section ======= --> */}
         <section id="about " class="about">
           <div class="container" data-aos="fade-up">
@@ -132,13 +127,14 @@ function About() {
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h3>Technologies we used</h3>
-                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                <p>React is the most popular JavaScript front-end framework in use today. It’s used by both established companies and new startups.</p>
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                   <i class="bi bi-easel flex-shrink-0"></i>
                   <div>
                     <h4><a href class="stretched-link">Web Development</a></h4>
-                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <p>Web development is becoming an increasingly widespread profession. Web developers are responsible for building and maintaining websites.
+                       They control how a website looks, how a website performs, and what sort of actions people can take when they visit a website.</p>
                   </div>
                 </div>
                 {/* <!-- End Icon Box --> */}
@@ -147,7 +143,8 @@ function About() {
                   <i class="bi bi-patch-check flex-shrink-0"></i>
                   <div>
                     <h4><a href class="stretched-link">Android Development</a></h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    <p> Android development requires a tool called Android Studio. This is the software developers use to enter their code, test their apps,
+                       and manage their projects.</p>
                   </div>
                 </div>
                 {/* <!-- End Icon Box --> */}
@@ -156,7 +153,8 @@ function About() {
                   <i class="bi bi-brightness-high flex-shrink-0"></i>
                   <div>
                     <h4><a href class="stretched-link">Machine Learning</a></h4>
-                    <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                    <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to 
+                      imitate the way that humans learn, gradually improving its accuracy.</p>
                   </div>
                 </div>
                 {/* <!-- End Icon Box --> */}
@@ -165,7 +163,8 @@ function About() {
                   <i class="bi bi-brightness-high flex-shrink-0"></i>
                   <div>
                     <h4><a href class="stretched-link">Game Development</a></h4>
-                    <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                    <p>Game development refers to the process of creating a video game. There are lots of different roles that work together to build the game that 
+                      ends up on your screen.</p>
                   </div>
                 </div>
                 {/* <!-- End Icon Box --> */}
@@ -272,7 +271,7 @@ function About() {
                 </div>
                 <div class="member-info text-center">
                   <h4>VINIT SRIVASTAVA</h4>
-                  <span>CI/CD Developer</span>
+                  <span>UI Designer</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
@@ -289,7 +288,7 @@ function About() {
                 </div>
                 <div class="member-info text-center">
                   <h4>RANA PRATAP SINGH</h4>
-                  <span>UI Designer</span>
+                  <span>CI/CD Developer</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}

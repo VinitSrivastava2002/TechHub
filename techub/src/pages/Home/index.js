@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 // import "bootstrap/dist/css/bootstrap.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "./home.css";
 
 export default function Home() {
   useEffect(() => {
@@ -91,28 +92,33 @@ export default function Home() {
             <div className="row" data-aos="zoom-in">
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Freact.png?alt=media&token=cc5e03dd-8587-409f-bd93-3c51298a28bb" className="img-fluid" alt="reactjs" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fandroidlogo.jpg?alt=media&token=b75a772d-ffaf-402a-abee-7647ffcb80b2" className="img-fluid" alt="Android" />
               </div>
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fnode.png?alt=media&token=2bb97206-4883-4d62-a314-0ff0fdf880dc" className="img-fluid" alt="android" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fdockerlogo.png?alt=media&token=dd1c2068-bff7-403d-a3d1-188125bd627f" className="img-fluid" alt="Docker" />
               </div>
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fandroid.png?alt=media&token=abf04eab-aedf-4531-8d78-7bbe8d6f6c61" className="img-fluid" alt="panda" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fgithub.jpg?alt=media&token=ffafa517-601b-4397-9322-1a256c612394" className="img-fluid" alt="Github" />
               </div>
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fmongo.png?alt=media&token=9ae1c5b8-f0b8-4062-a9a2-5e0181356924" className="img-fluid" alt="numpy" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fkubernativelogo.png?alt=media&token=d9d9a2c1-0544-4c1c-888a-7db2dc8f0927" className="img-fluid" alt="Kubernative" />
               </div>
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fgit.png?alt=media&token=1f9c9675-30fa-4d6e-8f2e-8bfa607aee58" className="img-fluid" alt="kubernative" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fpandas%20logo.jpg?alt=media&token=a7a6003e-adae-4a42-8d60-471904928361" className="img-fluid" alt="Pandas" />
+              </div>
+              <dyiv className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fpython%20logo.jpg?alt=media&token=2a21cb0a-6d84-423d-bb61-cd183cd75620" className="img-fluid" alt="Python" />
+              </dyiv>
+              {/* <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Freact%20logo.png?alt=media&token=0ce1b883-b2ba-44c1-a671-c39c1bb2a434" className="img-fluid" alt="React" />
               </div>
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fangular.png?alt=media&token=a983c392-4b67-46f1-99ff-c20855d6daaa" className="img-fluid" alt="kubernative" />
-              </div>
-
+                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fvscodelogo.jpg?alt=media&token=355aa811-5dff-435e-b8a3-d0f9efcbafac" className="img-fluid" alt="VS-Code" />
+              </div> */}
             </div>
 
           </div>

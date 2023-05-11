@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 function Header() {
 return(
     <div>
@@ -19,13 +16,9 @@ return(
 
       <nav id="navbar" className="navbar">
         <ul>
-
-        
-
-
           <li><a href="/" className="active">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li className="dropdown"><a href><span>Project Gallery</span> <span className="bi bi-chevron-down dropdown-indicator"></span></a>
+          <li><a href="/about" style={{color:'#ffff' , gap:'5px'}}>About</a></li>
+          <li className="dropdown"><a href style={{color:'#ffff' , gap:'5px'}}><span >Project Gallery</span> <span className="bi bi-chevron-down dropdown-indicator"></span></a>
             <ul>
         
               <li><a href="/web">Web Development</a></li>
