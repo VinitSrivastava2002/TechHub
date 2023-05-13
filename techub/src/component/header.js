@@ -1,20 +1,7 @@
 import React from 'react';
-import { getAuth, signOut } from 'firebase/auth';
 import { Button } from '@mui/material';
 
-function Header() {
-  const handleSignOut = () => {
-    const auth = getAuth();
-    signOut(auth)
-      .then(() => {
-        // User is signed out
-        console.log('User signed out');
-      })
-      .catch((error) => {
-        // Handle sign-out errors
-        console.log('Sign-out error:', error);
-      });
-  };
+function Header({handleSignOut}) {
 
   return (
     <div>

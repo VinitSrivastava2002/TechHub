@@ -14,7 +14,7 @@ import Android from './Project_Gallery/android';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 function App() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const auth = getAuth();
@@ -31,13 +31,23 @@ function App() {
     });
   }, []);
 
+  const handleSignOut = () => {
+    const auth = getAuth();
+    auth.signOut().then(() => {
+      console.log('User signed out successfully');
+      setOpen(true);
+    }).catch((error) => {
+      console.log('Error signing out:', error);
+    });
+  };
+
   return (
     <>
       {open ? (
         <SignIn setOpen={setOpen} />
       ) : (
         <div>
-          <Header />
+          <Header handleSignOut={handleSignOut} />
           <Router>
             <Switch>
               <Route path="/" exact component={Home} />
