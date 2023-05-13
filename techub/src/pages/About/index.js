@@ -237,7 +237,7 @@ function About() {
                 </div>
                 <div class="member-info text-center">
                   <h4>VANYA RASTOGI</h4>
-                  <span>Team Leader</span>
+                  <span>Team Leader(Frontend Developer)</span>
                 </div>
               </div>
               {/* <!-- End Team Member --> */}
