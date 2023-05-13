@@ -1,18 +1,49 @@
-import React ,{useState} from 'react';
+import React from 'react';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import {Avatar , Button , CssBaseline, TextField , FormControlLabel, Checkbox, Link, Grid,Box,Typography,Container,Modal} from '@mui/material'
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {
+  Avatar,
+  Button,
+  CssBaseline,
+  TextField,
+  FormControlLabel,
+  Checkbox,
+  Link,
+  Box,
+  Typography,
+  Container,
+  Modal,
+} from '@mui/material';
+import { initializeApp } from 'firebase/app';
+import {
+  getAuth,
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
+} from 'firebase/auth';
+
+// Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBmX6i0BCwhYArN_K47a5pQQDVxLsOxAE4",
+  authDomain: "techhub-def2e.firebaseapp.com",
+  projectId: "techhub-def2e",
+  storageBucket: "techhub-def2e.appspot.com",
+  messagingSenderId: "572076525027",
+  appId: "1:572076525027:web:7a90076ab9dfe2d3580cd6",
+  measurementId: "G-49P6KFECCB"
+};
+
+// Initialize Firebase
+initializeApp(firebaseConfig);
 
 const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: '50%',
-    bgcolor: "#ffff",
-    boxShadow: 24,
-    p: 4,
-  };
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: '50%',
+  bgcolor: '#ffff',
+  boxShadow: 24,
+  p: 4,
+};
 
 function Copyright(props) {
   return (
@@ -27,22 +58,53 @@ function Copyright(props) {
   );
 }
 
-const theme = createTheme();
+export default function SignIn({setOpen}) {
 
-export default function SignIn() {
-  const [open , setOpen] = useState(true);
-  const handleSubmit = (event) => {
+  const handleClose = () => {
     setOpen(false);
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const email = data.get('email');
+    const password = data.get('password');
+
+    const auth = getAuth();
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // User is signed in
+        const user = userCredential.user;
+        console.log('User authenticated:', user);
+
+        // Close the modal and open the home page or perform any desired action
+        handleClose();
+      })
+      .catch((error) => {
+        // Handle sign-in errors
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log('Sign-in error:', errorCode, errorMessage);
+      });
+  };
+
+  // Listen for changes in user authentication state
+  onAuthStateChanged(getAuth(), (user) => {
+    if (user) {
+      // User is signed in
+      console.log('User is signed in:', user);
+
+      // Close the modal and open the home page or perform any desired action
+      handleClose();
+    } else {
+      // User is signed out
+      console.log('User is signed out');
+    }
+  });
+
   return (
-    <Modal open={open}>
+    <Modal open={setOpen}>
       <Container component="main" maxWidth="xs" sx={style}>
         <CssBaseline />
         <Box
@@ -92,18 +154,6 @@ export default function SignIn() {
             >
               Sign In
             </Button>
-            <Grid container>
-              <Grid item xs>
-                <Link href="#" variant="body2">
-                  Forgot password?
-                </Link>
-              </Grid>
-              <Grid item>
-                <Link href="#" variant="body2">
-                  {"Don't have an account? Sign Up"}
-                </Link>
-              </Grid>
-            </Grid>
           </Box>
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
