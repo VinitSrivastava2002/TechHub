@@ -999,6 +999,9 @@ h6 {
   font-size: 14px;
   border-top: 1px solid rgba(20, 20, 20, 0.15);
   background: #37517e;;
+  position: static;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer .copyright {
