@@ -1,81 +1,129 @@
-import React from 'react';
-import './projectdetail.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import "./projectdetail.css";
+import "swiper/css";
 
-// Import Swiper styles
-import 'swiper/css';
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: {
+      max: 4000,
+      min: 3000,
+    },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: {
+      max: 8000,
+      min: 1000,
+    },
+    items: 1,
+    partialVisibilityGutter: 1,
+  },
+  tablet: {
+    breakpoint: {
+      max: 1024,
+      min: 464,
+    },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: {
+      max: 464,
+      min: 0,
+    },
+    items: 1,
+  },
+};
 
-function Project1() {
- 
+function Project({ project }) {
+  const {
+    title,
+    images,
+    description,
+    category,
+    session,
+    url,
+    author,
+    liveUrl,
+  } = project;
+
   return (
-      <>
+    <>
       <main id="main">
-     {/* ======= Our Portfolio Section ======= */}
-        <section className="projectdetails" style={{padding:'35px'}}>
-            <div className="container">
+        {/* ======= Our Portfolio Section ======= */}
+        <section className="projectdetails" style={{ padding: "35px" }}>
+          <div className="container">
             <div className="d-flex justify-content-between align-items-center">
-                <h2 >project detail 1</h2>
+              <h2>{title}</h2>
             </div>
-            </div>
+          </div>
         </section>
         {/* End Our Portfolio Section */}
-   
-  
-  {/* ======= Portfolio Details Section ======= */}
-  <section id="portfolio-details" className="portfolio-details">
-    <div className="container">
-      <div className="row gy-4">
-        <div className="col-lg-8">
-          <div className="portfolio-details-slider swiper">
-            <div className="swiper-wrapper align-items-center">
-              <div className="swiper-slide">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" />
+
+        {/* ======= Portfolio Details Section ======= */}
+        <section id="portfolio-details" className="portfolio-details">
+          <div className="container">
+            <div className="row gy-4">
+              <div className="col-lg-8">
+                <div className="portfolio-details-slider swiper">
+                  {images && images.length > 0 ? (
+                    <Carousel responsive={responsive} swipeable keyBoardControl>
+                      {images.map((image, index) => (
+                        <div className="swiper-slide" key={index}>
+                          <img src={image} alt="" />
+                        </div>
+                      ))}
+                    </Carousel>
+                  ) : (
+                    <p>No images available</p>
+                  )}
+                </div>
               </div>
-              <div className="swiper-slide">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" />
-              </div>
-              <div className="swiper-slide">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" />
+              <div className="col-lg-4">
+                <div className="portfolio-info">
+                  <h3>Project information</h3>
+                  <ul>
+                    <li>
+                      <strong>Category</strong>: {category}
+                    </li>
+                    <li>
+                      <strong>Developer</strong>: {author}
+                    </li>
+                    <li>
+                      <strong>Project session</strong>: {session}
+                    </li>
+                    <li>
+                      <strong>Project URL</strong>: <a href={url}>{url}</a>
+                    </li>
+                  </ul>
+                  <br />
+                  {liveUrl ? (
+                    <a
+                      href={liveUrl}
+                      className="btn-visit align-self-start my-2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visit Website
+                    </a>
+                  ) : (
+                    ""
+                  )}
+                </div>
+                <div className="portfolio-description">
+                  <h2>About Project</h2>
+                  <p>{description}</p>
+                </div>
               </div>
             </div>
-            <div className="swiper-pagination" />
           </div>
-        </div>
-        <div className="col-lg-4">
-          <div className="portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li>
-                <strong>Category</strong>: Web design
-              </li>
-              <li>
-                <strong>Client</strong>: AWS
-              </li>
-              <li>
-                <strong>Project date</strong>: 01 March, 2020
-              </li>
-              <li>
-                <strong>Project URL</strong>: <a href="#">www.example.com</a>
-              </li> 
-            </ul><br/>
-            <a href="#" class="btn-visit align-self-start my-2">Visit Website</a>
-          </div>
-          <div className="portfolio-description">
-            <h2>About Project</h2>
-            <p>
-              hii this is my first project 
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* End Portfolio Details Section */}
-
-</main>
-  {/* End #main */}
-</>
-  )
+        </section>
+        {/* End Portfolio Details Section */}
+      </main>
+      {/* End #main */}
+    </>
+  );
 }
 
-export default Project1;
+export default Project;

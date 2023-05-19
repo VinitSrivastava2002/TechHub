@@ -1,0 +1,120 @@
+{
+    "Session 2023": [
+      {
+        "id": 1,
+        "name": "Tech Hub",
+        "description": "The Tech Hub Project is a comprehensive platform that aims to foster innovation, collaboration, and technological advancements by bringing together a diverse range of projects and initiatives. The platform organizes these projects into various categories, enabling efficient exploration and engagement within specific domains of interest. Through this categorization, the Tech Hub Project serves as a hub for knowledge sharing, idea exchange, and networking among individuals, teams, and organizations involved in technology-driven endeavors.",
+        "category": "Web Development",
+        "images": [
+            "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Ftechub%2Fpic1.jpg?alt=media&token=c428cf07-4cbd-4752-9848-ca81b8fd0284",
+             "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Ftechub%2Fabout.jpg?alt=media&token=8c647741-bd41-4793-a618-eab73158a40c",
+             "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Ftechub%2Fprojectgallery.jpg?alt=media&token=f2c11cc6-8b4b-4fdc-b9eb-a2df06b1cc7f"
+        ],
+        "client": "Vanya Rastogi",
+        "date": "2022-23",
+        "projectUrl": "https://github.com/VanyaRastogi/TechHub",
+        "liveUrl":"https://techhub-def2e.web.app/"
+      },
+     
+      {
+        "id": 2,
+        "name": "Virtual Moise using hand gesture and voice commands",
+        "description": "The virtual mouse using hand gestures and voice commands desktop application is an innovative and intuitive way to interact with your computer without the need for traditional mouse and keyboard inputs. By utilizing advanced computer vision and speech recognition technologies, this application allows users to control the cursor on their desktop screen simply by moving their hand and making specific gestures in front of a camera.",
+        "category": "Machine Learning",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fvirtual%20mouse%2Fvirtual%20mouse.jpg?alt=media&token=0503df0d-a234-432b-9ab4-389da1a1f39c"
+        ],
+        "client": "Saurabh kumar",
+        "date": "2022-23",
+        "projectUrl": "https://github.com/saurabhk200/Virtual-Mouse"
+      },
+      {
+        "id": 3,
+        "name": "AI Hub",
+        "description": "An Android application the gather all the ai tools at one place so that user can use multiple ai in single application carry a single sign up feature so that u don't have to sign in for multiple ai tools again n again",
+        "category": "Android Development",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FAI%20Hub%2Fhome.jpg?alt=media&token=f4eef026-d98e-4e41-88af-72685c890389",          
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FAI%20Hub%2Floginn.jpg?alt=media&token=f415dac3-afc9-459c-95e1-fb4ad62ea0c7",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FAI%20Hub%2Fprofile.jpg?alt=media&token=d68cb8b1-7f08-435c-ac2a-36edcac3ee71",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FAI%20Hub%2Fsignup.jpg?alt=media&token=edbafcbd-d8ea-4798-9542-24a05738d5fb"
+        ],
+        "client": "Harsh Verma",
+        "Team Member" : "",
+        "date": "2022-23",
+        "projectUrl": "https://github.com/harshverma7864/AiHub"
+      },
+      {
+        "id": 4,
+        "name": "Career Dendogram",
+        "description": "We are proposing a new system to help students guide for career selection.The proposed Online Career Guidance System will make it easy for students to access the information they need. It will guide students through this process and provide access to verified sites that can help them. The system will also allow students to collect all the information they require and store it in a manner that makes it easy to access. Students will also have access to useful student testimonies and articles by counselors. ",
+        "category": "Web Development",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FCareer%20dendogram%2Fhome.jpg?alt=media&token=de22cfbd-5e6b-4376-963b-805048357e08",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FCareer%20dendogram%2Fimg1.jpg?alt=media&token=0651e16f-eb75-45e0-99c9-23ebb9d1edce"
+        ],
+        "client": "Aman trivedi",
+        "Team Member" : "",
+        "date": "2022-23",
+        "projectUrl": ""
+      },
+      {
+        "id": 5,
+        "name": "Cnn based lung cancer detection model",
+        "description": "The system performed effectively on 10,000 lung cancer images, achieving high training accuracy (96.89%) and validation accuracy (93.20%). It successfully classified non-small cell lung cancer subtypes, squamous cell carcinoma and adenocarcinoma, using previously unseen images. ",
+        "category": "Machine Learning",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FLungs%20cancer%2Flungs.jpg?alt=media&token=92891512-0540-40f7-9be7-917cda90366e",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FLungs%20cancer%2Flung%20cancer.jpg?alt=media&token=da12641f-c451-4df6-b1d4-b9e9ce180fbd",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2FLungs%20cancer%2Flung%20cancer1.jpg?alt=media&token=fff868f4-e23f-4ed5-bb8d-26888f4e914e"
+        ],
+        "client": "Aman trivedi",
+        "Team Member" : "",
+        "date": "2022-23",
+        "projectUrl": ""
+      },
+      
+      {
+        "id": 6,
+        "name": "Hospital Management",
+        "description": "Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved",
+        "category": "Web Development",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fhospital%20management%2Fhospital2.PNG?alt=media&token=30e46e13-1a00-40d3-b1c9-040651b7dc45",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fhospital%20management%2Fhospital.jpg?alt=media&token=34357cbf-2ca5-4e73-ae23-420fa13a5e75"
+        ],
+        "client": "Vinit Srivastava",
+        "projectDate": "2022-23",
+        "projectUrl": "https://github.com/TechHub2023/Hospital-Management.git"
+      },
+      {
+        "id": 7,
+        "name": "Air Canvas",
+        "description": "Air Canvas is an interactive project that utilizes OpenCV (Open Source Computer Vision) library to create a virtual canvas in the air. It enables users to draw and manipulate digital artwork in real-time using hand gestures and motions captured by a camera The project combines computer vision techniques with image processing algorithms to detect and track the user's hand movements. It allows the user to use their hand as a brush or a tool to interact with the virtual canvas",
+        "category": "Machine Learning",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fhand%20gesture.jpg?alt=media&token=8a89225a-f480-44dd-a7f8-24222436ab09",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Ftech11.jpg?alt=media&token=30a24282-f616-4053-910e-cca0b734a337"
+        ],
+        "client": "Vishal Sachan",
+        "date": "2022-23",
+        "projectUrl": "https://github.com/vishalsachan45/project2"
+      },
+      {
+        "id": 8,
+        "name": "CovidTracker",
+        "description": "The idea behind this application is to displays the statistics of Coronavirus COVID-19 around the world and the data are being collected from Johns Hopkins University Center for Systems Science and Engineering JHU CSSE and it updates the cases constantly on this website around the world. ",
+        "category": "Web Development",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fcovid%20tracker%2Fcovidtracker.png?alt=media&token=6420701e-9b3f-48a5-a9ae-e773808b05be",
+          "https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/projects%2Fcovid%20tracker%2Fcovid%20tracker2.jpg?alt=media&token=71af2ae8-72d3-40da-96df-84f758145bc8"
+        ],
+        "client": "Shivankur Singh",
+        "projectDate": "2022-23",
+        "projectUrl": "https://github.com/TechHub2023/Covid19-track.git"
+      }
+    ]
+  }
+  
+  
+  
