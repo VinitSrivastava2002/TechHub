@@ -43,9 +43,9 @@ function App() {
 
   return (
     <>
-      {open ? (
+      {/* {open ? (
         <SignIn setOpen={setOpen} />
-      ) : (
+      ) : ( */}
         <div>
           <Header handleSignOut={handleSignOut} />
           <Router>
@@ -64,7 +64,7 @@ function App() {
           </Router>
           <Footer />
         </div>
-      )}
+      {/* )} */}
     </>
   );
 }

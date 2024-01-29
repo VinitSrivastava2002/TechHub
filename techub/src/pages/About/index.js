@@ -23,7 +23,7 @@ function About() {
               
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
-              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Faboutlogo.png?alt=media&token=05b0c2e5-8488-408a-b939-21bef743d3fd" className="img-fluid animated" alt="" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/AboutElements%2FAboutIcon.png?alt=media&token=94a70eb5-01ad-4f8a-8871-82fd7f31edb3" className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>

@@ -3,55 +3,51 @@ import { Button } from '@mui/material';
 
 function Header({handleSignOut}) {
 
-  return (
-    <div>
+  return ( 
+    <>
       {/* <!-- ======= Header ======= --> */}
-      <header id="header" className="header d-flex align-items-center fixed-top">
-        <div className="container-fluid d-flex align-items-center justify-content-between">
-
-          <a href="index.html" className="logo d-flex align-items-center  me-auto me-lg-0">
-            {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
+      <header id="header" className="header d-flex align-items-center  fixed-top">
+        
+        <a href="/" className="logo d-flex align-items-center justify-content-start me-auto me-lg-0">
             <h2 style={{ color: '#fff', marginLeft: '1.25rem' }}>TECHHUB</h2>
-            {/* <i className="bi bi-camera"></i> */}
-            {/* <h1>TechHub</h1> */}
-          </a>
+        </a>
 
+        <div className="container-fluid d-flex align-items-center justify-content-end">
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a href="/" className="active">Home</a></li>
-              <li><a href="/about" style={{ color: '#ffff', gap: '5px' }}>About</a></li>
-              <li className="dropdown"><a href style={{ color: '#ffff', gap: '5px' }}><span>Project Gallery</span> <span className="bi bi-chevron-down dropdown-indicator"></span></a>
+              <li><a href="/" className="nav-link ">Home</a></li>
+              <li><a href="/about" className="nav-link" >About</a></li>
+              <li className="dropdown">
+                <a href="#">Project Gallery<span className="bi bi-chevron-down dropdown-indicator"></span></a>
                 <ul>
-
                   <li><a href="/web">Web Development</a></li>
                   <li><a href="/android">Android Development</a></li>
                   <li><a href="/machine">Machine Learning</a></li>
                   <li><a href="/iot">IOT</a></li>
                   <li><a href="/games">Games</a></li>
-
                 </ul>
-              </li>
-
+              </li> 
+              <li><a className="nav-link " href="#team">Team</a></li>
+              <li><a className="nav-link " href="#contact">Contact</a></li>
+              
             </ul>
           </nav>
           {/* <!-- .navbar --> */}
 
-          <div className="header-social-links">
+          {/* <div className="header-social-links">
             <a href className="twitter"><i className="bi bi-twitter"></i></a>
             <a href className="github"><i className="bi bi-github"></i></a>
-            {/* <a href className="instagram"><i className="bi bi-instagram"></i></a> */}
             <a href className="linkedin"><i className="bi bi-linkedin"></i></a>
-          </div>
+          </div> */}
           <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-          {/* Logout button */}
-          <Button variant="contained" onClick={handleSignOut}>Logout</Button>
-
-        </div>
+          {/* Logout button  */}
+        </div> 
+        <Button variant="contained" className="mx-3 " nClick={handleSignOut}>Logout</Button>
       </header>
-      {/* <!-- End Header --> */}
-    </div>
+      {/* <!-- End Header -->*/}
+    </>
   )
 }
 

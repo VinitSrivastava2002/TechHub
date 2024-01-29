@@ -110,9 +110,9 @@ export default function Home() {
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fpandas%20logo.jpg?alt=media&token=a7a6003e-adae-4a42-8d60-471904928361" className="img-fluid" alt="Pandas" />
               </div>
-              <dyiv className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fpython%20logo.jpg?alt=media&token=2a21cb0a-6d84-423d-bb61-cd183cd75620" className="img-fluid" alt="Python" />
-              </dyiv>
+              </div>
               {/* <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Freact%20logo.png?alt=media&token=0ce1b883-b2ba-44c1-a671-c39c1bb2a434" className="img-fluid" alt="React" />
               </div>
