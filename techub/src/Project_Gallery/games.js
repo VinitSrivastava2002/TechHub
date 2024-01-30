@@ -20,7 +20,7 @@ function Games() {
             
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fgames%2Fgamebg.png?alt=media&token=4e564480-3d58-459b-b4fa-6b40f545193b" className="img-fluid animated" alt="" />
+            <img src="assets\images\GalleryIcons\gameIcon.png" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>

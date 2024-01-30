@@ -46,7 +46,7 @@ function Android() {
               <h1>Android Development </h1>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="100">
-              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fandroid%2Fandroidlogo.png?alt=media&token=11743528-5b93-4285-81ea-31b9e3341cbd" className="img-fluid animated" alt="" />
+              <img src="assets\images\GalleryIcons\androidIcon.png" className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>

@@ -1,9 +1,7 @@
 
 // import "bootstrap/dist/css/bootstrap.css";
 import React, { useEffect } from 'react'
-
 import "./about.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,11 +17,12 @@ function About() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
-              <h1 >ABOUT TECHHUB </h1>
+              <h1>About TechHub</h1>
+              <h2>Join us at TechHub and let's build the future, today! </h2>
               
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
-              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/AboutElements%2FAboutIcon.png?alt=media&token=94a70eb5-01ad-4f8a-8871-82fd7f31edb3" className="img-fluid animated" alt="" />
+              <img src="assets\images\About\About.png" className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>
@@ -36,7 +35,9 @@ function About() {
 
             <div class="row position-relative">
 
-              <div class="col-lg-7 about-img"></div>
+              <div class="col-lg-7 about-img">
+               <img src="assets\images\About\About-1.jpg" className="img-fluid img-thumbnail" alt="" />
+              </div>
 
               <div class="col-lg-7">
                 
@@ -123,7 +124,9 @@ function About() {
           <div class="container" data-aos="fade-up">
 
             <div class="row justify-content-around gy-4">
-              <div class="col-lg-6 img-bg"  data-aos="zoom-in" data-aos-delay="100"></div>
+              <div class="col-lg-6 img-bg"  data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets\images\About\About-3.jpg" className="img-fluid img-thumbnail " alt="" />
+              </div>
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h3>Technologies we used</h3>
@@ -179,16 +182,16 @@ function About() {
         
 
         {/* <!-- ======= Our Team Section ======= --> */}
-        <section id="team" class="team">
+        {/* <section id="team" class="team">
           <div class="container" data-aos="fade-up">
           <div class="row gy-5">
           <div class="section-title">
              <h2>MENTOR</h2>
             </div>
 
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="col-lg-4 col-md-6 member justify-content-center " data-aos="fade-up" data-aos-delay="600">
                 <div class="member-img">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shubhaa.jpg?alt=media&token=a44f79a3-ec41-46a4-b09f-98c1f748821d" class="img-fluid" alt="" />
+                  <img src="assets\images\Mentor\Shubha.jpeg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href><i class="bi bi-twitter"></i></a>
                     <a href><i class="bi bi-github"></i></a>
@@ -198,13 +201,13 @@ function About() {
                 </div>
                 <div class="member-info text-center">
                   <h4>Mrs SUBHA JAIN</h4>
-                  <span>HOD</span>
+                  <span>Head Of Department</span>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- End Team Member --> */}
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              {/* <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
                 <div class="member-img">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/shail.jpg?alt=media&token=e0ab3561-b05f-45b2-ab65-49dd93c21ea5" class="img-fluid" alt="" />
+                  <img src="assets\images\Mentor\Shail.jpeg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href><i class="bi bi-twitter"></i></a>
                     <a href><i class="bi bi-github"></i></a>
@@ -216,15 +219,30 @@ function About() {
                   <h4>Mrs SHAIL DUBEY</h4>
                   <span>Associate Professor</span>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- End Team Member --> */}
-
+{/* 
             <div class="section-title">
              <h2>OUR TEAM</h2>
             </div>
 
-            
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/MYPIC1.jpeg?alt=media&token=d1566d7e-c206-4d26-8374-7139c84daf9b" class="img-fluid" alt="" />
+                  <div class="social">
+                  <a href><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/VinitSrivastava2002"><i class="bi bi-github"></i></a>
 
+                    <a href="linkedin.com/in/vinit-srivastava-2ba5191a6/"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info text-center">
+                  <h4>VINIT SRIVASTAVA</h4>
+                  <span>Frontend-Backend</span>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+{/* 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
                   <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/kammo2.jpeg?alt=media&token=d27f6529-afbd-49e6-9727-3a873f7e46ed" class="img-fluid" alt="" />
@@ -239,9 +257,9 @@ function About() {
                   <h4>VANYA RASTOGI</h4>
                   <span>Team Leader(Frontend Developer)</span>
                 </div>
-              </div>
+              </div>  */}
               {/* <!-- End Team Member --> */}
-
+{/* 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
                   <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/sivakur2.jpeg?alt=media&token=59156c05-62ec-40dd-821f-867d5e9e1e6c" class="img-fluid" alt="" />
@@ -256,26 +274,9 @@ function About() {
                   <h4>SHIVANKUR SINGH</h4>
                   <span>Backend Developer</span>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- End Team Member --> */}
-
-              <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-                <div class="member-img">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/MYPIC1.jpeg?alt=media&token=d1566d7e-c206-4d26-8374-7139c84daf9b" class="img-fluid" alt="" />
-                  <div class="social">
-                  <a href><i class="bi bi-twitter"></i></a>
-                    <a href="https://github.com/VinitSrivastava2002"><i class="bi bi-github"></i></a>
-
-                    <a href="linkedin.com/in/vinit-srivastava-2ba5191a6/"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info text-center">
-                  <h4>VINIT SRIVASTAVA</h4>
-                  <span>UI Designer</span>
-                </div>
-              </div>
-              {/* <!-- End Team Member --> */}
-
+{/* 
               <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
                   <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2Fhomepage%20Icons%2Fstt.png?alt=media&token=4437873e-1402-4fba-b464-98ea7ebb19e3" class="img-fluid" alt="" />
@@ -290,15 +291,15 @@ function About() {
                   <h4>RANA PRATAP SINGH</h4>
                   <span>CI/CD Developer</span>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- End Team Member --> */}
 
-              
+{/*               
 
             </div>
 
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Our Team Section --> */}
       </main>
     </div>

@@ -57,7 +57,7 @@ function Android() {
               <h1>Machine Learning </h1>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="100">
-            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fmachine%2Fmachinelogo.png?alt=media&token=fee52044-d44c-434a-b587-3545927bf39d" className="img-fluid animated" alt="" />
+            <img src="assets\images\GalleryIcons\aiIcon.png" className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>

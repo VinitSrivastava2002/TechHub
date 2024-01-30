@@ -58,6 +58,7 @@ function App() {
               <Route path="/machine" exact component={Machine} />
               <Route path="/iot" exact component={IOT} />
               <Route path="/games" exact component={Games} />
+              {/* <Route path="/contact" exact component={C}/> */}
               {/* PROJECTS FOR WEBTECHNOLOGY */}
               <Route path="/projectdetail1" exact component={Project1} />
             </Switch>

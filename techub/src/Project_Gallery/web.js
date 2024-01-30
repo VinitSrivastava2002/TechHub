@@ -46,7 +46,7 @@ function Web() {
               <h1>Web Development </h1>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="100">
-              <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fweb%2Fweb-unscreen.gif?alt=media&token=70d1299e-b531-44b1-85de-845d0a5332c9" className="img-fluid animated" alt="" />
+              <img src="assets\images\GalleryIcons\webIcon.png" className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ function IOT() {
             
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://firebasestorage.googleapis.com/v0/b/techhub-def2e.appspot.com/o/assets%2FImages%2Fiot%2Fiotlogo.png?alt=media&token=d3914ce9-a0cf-425b-bd22-9e3b5308f9b2" className="img-fluid animated" alt="" />
+            <img src="assets\images\GalleryIcons\iotIcon.png" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
