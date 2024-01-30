@@ -9,7 +9,7 @@ function Header({handleSignOut}) {
       <header id="header" className="header d-flex align-items-center  fixed-top">
         
         <a href="/" className="logo d-flex align-items-center justify-content-start me-auto me-lg-0">
-            <h2 style={{ color: '#fff', marginLeft: '1.25rem' }}>TECHHUB</h2>
+            <h2 style={{ color: '#fff', marginLeft: '1.25rem', marginTop: '0.5rem' }}>TECHHUB</h2>
         </a>
 
         <div className="container-fluid d-flex align-items-center justify-content-end">
@@ -27,7 +27,7 @@ function Header({handleSignOut}) {
                   <li><a href="/games">Games</a></li>
                 </ul>
               </li> 
-              <li><a className="nav-link " href="#team">Team</a></li>
+              {/* <li><a className="nav-link " href="#team">Team</a></li> */}
               <li><a className="nav-link " href="#contact">Contact</a></li>
               
             </ul>

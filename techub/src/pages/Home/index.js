@@ -15,7 +15,8 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
-              <h1 >WELCOME TO TECHHUB </h1>
+              <h1 >Where innovation meets collaboration  </h1>
+              <h2>Empowering tech enthusiasts to dream, create, and innovate together</h2>
               
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="500">
@@ -92,7 +93,7 @@ export default function Home() {
             <div className="row" data-aos="zoom-in">
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/techhub-e8ca1.appspot.com/o/technologies%2Fandroidlogo.jpg?alt=media&token=b75a772d-ffaf-402a-abee-7647ffcb80b2" className="img-fluid" alt="Android" />
+                <img  className="img-fluid" alt="Android" />
               </div>
 
               <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">

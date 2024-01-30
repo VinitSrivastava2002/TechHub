@@ -234,7 +234,7 @@
 
 .services .details {
   padding: 50px 30px;
-  margin: -100px 30px 0 30px;
+  margin: 0px 30px 0 30px;
   transition: all ease-in-out 0.3s;
   background:#ffff;
   position: relative;
